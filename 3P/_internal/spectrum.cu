@@ -132,7 +132,7 @@ __global__ void binom(float * d_histogram, const float * const d_mutations_freq,
 				thread_data[0] += expf(coeff+powp+powq);  // get out of log space 
 			}else if(idy == 0){ thread_data[0] += 1.f; } //segregating in other populations: this is the marginal SFS in one population, so they count as monomorphic only
 		}
-		float aggregate = BlockReduceT(temp_storage).Sum(thread_data); // not sure what this does !?!?!
+		float aggregate = BlockReduceT(temp_storage).Sum(thread_data); // not sure what this does, i think it sums up the data across all threads ?
 		if(threadIdx.x == 0)
 		{
 			if(idy == num_levels)
