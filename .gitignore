@@ -6,8 +6,9 @@
 !run_test_zig_zag_demo.cu
 !exponential_growth_schiffels_durbin.txt
 !sd_simple_exponential.txt
+!_internal/
 # etc...
 
-# ...even if they are in subdirectories
+# ...even if they are in git 
 !*/
 
