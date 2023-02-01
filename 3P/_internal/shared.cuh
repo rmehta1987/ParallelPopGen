@@ -253,7 +253,7 @@ __host__ __device__ __forceinline__ int poiscdfinv(float r, float mean){
 //RNG_N_BOUNDARY_POIS_BINOM 100 - -- just to see values
 __host__ __device__ __forceinline__ int ApproxRandPois1(float mean, float var, float p, float N, int2 seed, int id, int generation, int population){
 	uint4 i = Philox(seed, id, generation, population, 0);
-	std::cout<< "the mean for poisson: " << mean << std::endl;
+	//printf("The mean in approxrandpois %f\n", mean);
 	if(mean <= RNG_MEAN_BOUNDARY_NORM)
 	{ 
 		return poiscdfinv(uint_float_01(i.x), mean); 
@@ -268,7 +268,7 @@ __host__ __device__ __forceinline__ int ApproxRandPois1(float mean, float var, f
 __host__ __device__ __forceinline__ int ApproxRandBinom1(float mean, float var, float p, float N, int2 seed, int id, int generation, int population){
 	uint4 i = Philox(seed, id, generation, population, 0);
 
-	std::cout<< "the mean for approxbinoma1: " << mean << std::endl;
+	//printf("The mean in ApproxRandBinom1 %f\n", mean);
 	
 	if(mean <= RNG_MEAN_BOUNDARY_NORM)
 	{

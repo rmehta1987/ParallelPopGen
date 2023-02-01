@@ -63,7 +63,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples){
 	//b.sim_input_constants.num_generations = scale_factor*pow(10.f,3)+1;	//1,000 generations
     b.sim_input_constants.num_generations = 34150;
     b.sim_input_constants.num_sites = 36*pow(10.f,6);	 // Should be 36 Megabase pairs 
-    b.sim_input_constants.compact_interval = 15;
+    b.sim_input_constants.compact_interval = 10;
     // Mutation and dominance parameters TODO Change dominance paramater to that of stabalizing selection
 
 	Sim_Model::F_mu_h_constant codominant(0.5f); 						//dominance (co-dominant)
@@ -183,8 +183,8 @@ int main(int argc, char **argv)
      // this is the mutation rate scaled with respect to number of sites, mutation_rate*(number of sites)
     float mut_rate = 0.3426;    
     // this is a point selection coefficient the selection coefficient will remain the same for the population, this is the un-scaled selection coefficient
-    float PointSel = -.0005; 
-    int num_samples = 100000;    
+    float PointSel = .005; 
+    int num_samples = 120000;    
 
     // Number of samples for to generate for the site-frequency spectrum (SFS
 
