@@ -115,10 +115,11 @@ __global__ void binom(float * d_histogram, const float * const d_mutations_freq,
 	typedef cub::BlockReduce<float, BLOCK_THREADS> BlockReduceT;
 	__shared__ typename BlockReduceT::TempStorage temp_storage;
 	float thread_data[1];
-
+	// idy is the frequency bin
 	for(int idy = myIDy; idy <= num_levels; idy+= blockDim.y*gridDim.y) // for every frequency bin
 	{
 		thread_data[0] = 0;
+		// idx is the mutation id?
 		for(int idx = myIDx; idx < num_mutations; idx+= blockDim.x*gridDim.x) // for every mutation
 		{
 			float pf = d_mutations_freq[idx];
@@ -128,19 +129,19 @@ __global__ void binom(float * d_histogram, const float * const d_mutations_freq,
 				float powq = (num_levels-idy)*logf(qf); // (n-i)*(1-p)
 				float coeff;
 				if(idy < half_n){ coeff = d_binom_coeff[idy]; } else{ coeff = d_binom_coeff[num_levels-idy]; }
-				thread_data[0] += expf(coeff+powp+powq); 
+				thread_data[0] += expf(coeff+powp+powq);  // get out of log space 
 			}else if(idy == 0){ thread_data[0] += 1.f; } //segregating in other populations: this is the marginal SFS in one population, so they count as monomorphic only
 		}
-		float aggregate = BlockReduceT(temp_storage).Sum(thread_data);
+		float aggregate = BlockReduceT(temp_storage).Sum(thread_data); // not sure what this does !?!?!
 		if(threadIdx.x == 0)
 		{
 			if(idy == num_levels)
 			{ 
-				atomicAdd(&d_histogram[0],aggregate); 
+				atomicAdd(&d_histogram[0],aggregate); // for the last bin
 			}
 			else
 			{ 
-				atomicAdd(&d_histogram[idy],aggregate);  
+				atomicAdd(&d_histogram[idy],aggregate);  // add data to the current bin
 			}
 		}
 	}
