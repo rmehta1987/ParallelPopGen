@@ -111,8 +111,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
 
     GO_Fish::allele_trajectories b;
     b.sim_input_constants.num_populations = 1; // number of populations
-
-    b.sim_input_constants.num_generations = 34150;
+    b.sim_input_constants.num_generations = 60000;
     b.sim_input_constants.num_sites = 36.0f * pow(10.f, 6); // Should be 36 Megabase pairs
     b.sim_input_constants.compact_interval = 5;
     // Mutation and dominance parameters TODO Change dominance paramater to that of stabalizing selection
@@ -129,6 +128,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     std::cout << "Creating population histories " << std::endl;
     // The different population sizes
     dem_const pop_history;
+    pop_history.push_back(14448);
     pop_history.push_back(14068);
     pop_history.push_back(14464);
     pop_history.push_back(15208);
@@ -165,6 +165,12 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     pop_history.push_back(13292);
     pop_history.push_back(14522);
     pop_history.push_back(613285);
+    pop_history.push_back(1000000); // final size is 1,000,000
+
+    //for (int i = 0; i < pop_history.size(); i++)
+    //{
+    //    std::cout << "pop_history: " << pop_history[i].N << std::endl;
+    //}
 
     // Time points from the when a population size change occurs
     std::cout << "Creating inflection points" << std::endl;
@@ -205,6 +211,12 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     inflection_points.push_back(55688);
     inflection_points.push_back(55816);
     inflection_points.push_back(55890);
+    inflection_points.push_back(55940); // last 50 generations had a pop size of one million
+    //for (int i = 0; i < pop_history.size(); i++)
+    //{
+    //    std::cout << "inflection_point: " << inflection_points[i] << std::endl;
+    //}
+    std::cout << "Pop_history and inflection point size, should be the same: " << pop_history.size() << " " << inflection_points.size() << std::endl;
 
     // Construct the different epochs
     std::cout << "Creating the demographic history of epochs" << std::endl;
@@ -244,10 +256,10 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     epoch_33_to_34 epoch_33(epoch_32, pop_history[34], inflection_points[34]);
     epoch_34_to_35 epoch_34(epoch_33, pop_history[35], inflection_points[35]);
     epoch_35_to_36 epoch_35(epoch_34, pop_history[36], inflection_points[36]);
-    epoch_36_to_37 epoch_36(epoch_35, pop_history[37], inflection_points[37]);
-
     std::cout << "Finished creating demographic events" << std::endl;
+    std::cout << "Something happening here: " << pop_history[37].N << " inflection point: " << inflection_points[37] << std::endl; 
 
+    epoch_36_to_37 epoch_36(epoch_35, pop_history[37], inflection_points[37]); // final population size of one million
 
     // Migration parameters, no--migration
     mig_const mig_model;
@@ -257,7 +269,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
 
     // SFS parameters
     int sample_size = num_samples; // number of samples in SFS
-    int num_iter = 2;              // number of iterations
+    int num_iter = 10;              // number of iterations
     Spectrum::SFS my_spectra;
 
     cudaEvent_t start, stop; // CUDA timing functions
@@ -272,7 +284,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     {
         results[j].reserve(sample_size);
     }
-    std::cout << "Starting iteration 1 of simulation" << std::endl;
+    //std::cout << "Starting iteration 1 of simulation" << std::endl;
     for (int j = 0; j < num_iter; j++)
     {
         if (j == num_iter / 2)
@@ -300,7 +312,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     cudaEventElapsedTime(&elapsedTime, start, stop);
     cudaEventDestroy(start);
     cudaEventDestroy(stop);
-
+    /*
     // output SFS simulation results
     std::cout << "SFS :" << std::endl
               << "allele count\tavg# mutations\tstandard dev\tcoeff of variation (aka relative standard deviation)" << std::endl;
@@ -322,7 +334,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
         std = sqrt(std);
         std::cout << i << "\t" << avg << "\t" << std << "\t" << (std / avg) << std::endl;
     }
-
+`   */
     std::ofstream output_file("./out_sfs_57_epoch.txt");
     for (int i = 0; i < sample_size; i++)
     {
@@ -344,7 +356,7 @@ int main(int argc, char **argv)
     float mut_rate = 0.3426;
     // this is a point selection coefficient the selection coefficient will remain the same for the population, this is the un-scaled selection coefficient
     float PointSel = -.005;
-    int num_samples = 113000;
+    int num_samples = 1000;
 
     // Number of samples for to generate for the site-frequency spectrum (SFS
 
