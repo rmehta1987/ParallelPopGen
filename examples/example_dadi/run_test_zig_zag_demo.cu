@@ -58,6 +58,23 @@ epochs:
       end_size: 71560
    6 - end_time: 34133.31
       end_size: 71560
+I'm pretty sure these are going backwards (coalescent) as in the simulation starts 34133 generations ago and ends 0 generations ago (modern day), for forward simulations you need to invert the order of the generations e.g.:
+
+epochs:
+   0 - end_time: 0
+      end_size: 7156
+   1 - end_time: 25,599.98 (= 34133.31 - 8533.33 + 0)
+      end_size: 71560
+   2 - end_time: 31,999.98 (= 8533.33 - 2133.33 + 25,599.98)
+      end_size: 7156
+   3 - end_time: 33,599.98
+      end_size: 71560
+   4 - end_time: 33,999.98
+      end_size: 7156
+   5 - end_time: 34,099.98
+      end_size: 71560
+   6 - end_time: 34133.31
+      end_size: 71560
  */
 
 void run_validation_test(float mut_rate, float sel_coef, int num_samples){
@@ -76,6 +93,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples){
 
 	GO_Fish::allele_trajectories b;
 	b.sim_input_constants.num_populations = 1; 							//number of populations
+
 
     b.sim_input_constants.num_generations = 34150;
     b.sim_input_constants.num_sites = 36.0f*pow(10.f,6);	 // Should be 36 Megabase pairs 
