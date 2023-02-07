@@ -1,7 +1,7 @@
 /*
  * run.cu
  *
- *      Author: David Lawrie
+ *      Author: Rahul Mehta
  */
 
 #include "go_fish.cuh"
@@ -41,6 +41,23 @@ epochs:
    6 - end_time: 0
       end_size: 71560
 
+I'm pretty sure these are going backwards (coalescent) as in the simulation starts 34133 generations ago and ends 0 generations ago (modern day), for forward simulations you need to invert the order of the generations e.g.:
+
+epochs:
+   0 - end_time: 0
+      end_size: 7156
+   1 - end_time: 25,599.98 (= 34133.31 - 8533.33 + 0)
+      end_size: 71560
+   2 - end_time: 31,999.98 (= 8533.33 - 2133.33 + 25,599.98)
+      end_size: 7156
+   3 - end_time: 33,599.98
+      end_size: 71560
+   4 - end_time: 33,999.98
+      end_size: 7156
+   5 - end_time: 34,099.98
+      end_size: 71560
+   6 - end_time: 34133.31
+      end_size: 71560
  */
 
 void run_validation_test(float mut_rate, float sel_coef, int num_samples){
@@ -51,61 +68,60 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples){
     typedef Sim_Model::demography_piecewise<epoch_2_to_3, Sim_Model::demography_constant> epoch_3_to_4;
     typedef Sim_Model::demography_piecewise<epoch_3_to_4, Sim_Model::demography_constant> epoch_4_to_5;
     typedef Sim_Model::demography_piecewise<epoch_4_to_5, Sim_Model::demography_constant> epoch_5_to_6;
+	//under the zig_zag model you actually want to use Sim_Model::demography_exponential_growth calculating rate as log((end_size - start_size)/num_generations) where num_generations = end_generations - start_generations
 
 
-
-    typedef Sim_Model::migration_constant_equal mig_const;
+    typedef Sim_Model::migration_constant_equal mig_const; // no migration
 	
-	float scale_factor = 1.0f;											//entire simulation can be scaled up or down with little to no change in resulting normalized SFS
 
 	GO_Fish::allele_trajectories b;
 	b.sim_input_constants.num_populations = 1; 							//number of populations
-	//b.sim_input_constants.num_generations = scale_factor*pow(10.f,3)+1;	//1,000 generations
+
     b.sim_input_constants.num_generations = 34150;
-    b.sim_input_constants.num_sites = 36*pow(10.f,6);	 // Should be 36 Megabase pairs 
-    b.sim_input_constants.compact_interval = 10;
+    b.sim_input_constants.num_sites = 36.0f*pow(10.f,6);	 // Should be 36 Megabase pairs 
+    b.sim_input_constants.compact_interval = 5;
     // Mutation and dominance parameters TODO Change dominance paramater to that of stabalizing selection
 
 	Sim_Model::F_mu_h_constant codominant(0.5f); 						//dominance (co-dominant)
 	Sim_Model::F_mu_h_constant outbred(0.f); 							//inbreeding (outbred)
 
 	//Sim_Model::F_mu_h_constant mutation((float) mut_rate / (b.num_sites())); 	//per-site mutation rate 10^-9
-    Sim_Model::F_mu_h_constant mutation(pow(10.f,-9)); 				//per-site mutation rate -- testing
+    Sim_Model::F_mu_h_constant mutation(9.6111f*pow(10.f,-9)); 				//per-site mutation rate -- testing
 
     // Demographic model
-
-    std::vector<float>  infelection_points(7); 
-
+	//needs to be inverted as specified above
+    std::vector<float>  inflection_points(6); 
+	
 	int N_ind = 7156;					//initial number of individuals in population
-    int N_final = 71560;                 //final number of individuals in a population
+   int N_final = 71560;                 //final number of individuals in a population
 	dem_const pop_history;			
-    pop_history.push_back(N_ind);	//intial population size of N_ind at epoch 0
+   pop_history.push_back(N_ind);	//intial population size of N_ind at epoch 0
 
     pop_history.push_back(N_final); //population size at epoch 1
-    infelection_points.push_back(34133.31); // population size at epoch 0 changes to population size at epoch 1
+    inflection_points.push_back(25599.98); // population size at epoch 0 changes to population size at epoch 1
 
     pop_history.push_back(N_ind);	//population size at epoch 2 
-    infelection_points.push_back(8533.33); // population size at epoch 1 changes to population size at epoch 2
+    inflection_points.push_back(31999.98); // population size at epoch 1 changes to population size at epoch 2
 
 
     pop_history.push_back(N_final); //population size at epoch 3 
-    infelection_points.push_back(2133.33); // population size at epoch 2 changes to population size at epoch 3
+    inflection_points.push_back(33599.98); // population size at epoch 2 changes to population size at epoch 3
 
     pop_history.push_back(N_ind);	//population size at epoch 4
-    infelection_points.push_back(533.33); // population size at epoch 3 changes to population size at epoch 4
+    inflection_points.push_back(33999.98); // population size at epoch 3 changes to population size at epoch 4
 
     pop_history.push_back(N_final); //population size at epoch 5
-    infelection_points.push_back(133.33); // population size at epoch 4 changes to population size at epoch 5
+    inflection_points.push_back(34099.98); // population size at epoch 4 changes to population size at epoch 5
 
     pop_history.push_back(N_final); //population size at epoch 6
-    infelection_points.push_back(33.0); // population size at epoch 5 changes to population size at epoch 6
+    inflection_points.push_back(34133.31); // population size at epoch 5 changes to population size at epoch 6
 
-    init_expansion epoch_0(pop_history[0], pop_history[1], infelection_points[0]);
-    epoch_1_to_2 epoch_1(epoch_0, pop_history[2], infelection_points[1]);
-    epoch_2_to_3 epoch_2(epoch_1, pop_history[3], infelection_points[2]);
-    epoch_3_to_4 epoch_3(epoch_2, pop_history[4], infelection_points[3]);
-    epoch_4_to_5 epoch_4(epoch_3, pop_history[5], infelection_points[4]);
-    epoch_5_to_6 epoch_5(epoch_4, pop_history[6], infelection_points[5]);
+    init_expansion epoch_0(pop_history[0], pop_history[1], inflection_points[0]);
+    epoch_1_to_2 epoch_1(epoch_0, pop_history[2], inflection_points[1]);
+    epoch_2_to_3 epoch_2(epoch_1, pop_history[3], inflection_points[2]);
+    epoch_3_to_4 epoch_3(epoch_2, pop_history[4], inflection_points[3]);
+    epoch_4_to_5 epoch_4(epoch_3, pop_history[5], inflection_points[4]);
+    epoch_5_to_6 epoch_5(epoch_4, pop_history[6], inflection_points[5]);
 
 
     // Migration parameters, no--migration
@@ -183,12 +199,12 @@ int main(int argc, char **argv)
      // this is the mutation rate scaled with respect to number of sites, mutation_rate*(number of sites)
     float mut_rate = 0.3426;    
     // this is a point selection coefficient the selection coefficient will remain the same for the population, this is the un-scaled selection coefficient
-    float PointSel = .005; 
-    int num_samples = 120000;    
+    float PointSel = -.005; 
+    int num_samples = 113000;    
 
     // Number of samples for to generate for the site-frequency spectrum (SFS
 
-    // Eventually this will read in a demographic history file for easier command line use instead of having to re-compile for every new demography
+    // Eventually this will read in a demographic history file for easier command line use instead of having to re-compile for every new demography <- possible but will still require a compilation step as Functors (functions passed as templates) need to be known at compile time (a requirement of GPUs), I have not yet added the ability to do this to the library, technically there are other libraries that will allow this, but I haven't merged them with my API to make it easy. It's on my TODO list
 
 
     if (argc != 4) // 3 Total parameters, [executable, scaled mutation rate, unscaled selection coefficient, num_samples]
