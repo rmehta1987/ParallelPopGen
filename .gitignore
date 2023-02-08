@@ -1,18 +1,2 @@
 # Ignore everything
-*
-
-# But not these files...
-!.gitignore
-!run_test_zig_zag_demo.cu
-!exponential_growth_schiffels_durbin.txt
-!sd_simple_exponential.txt
-!run_57_epoch_schiffels_durbin.cu
-!run_57_smaller_epoch_schiffels_durbin.cu
-!/3P/_internal/spectrum.cuh
-!/3P/_internal/spectrum.cu
-!/3P/_internal/shared.cuh
-# etc...
-
-# ...even if they are in git 
-!*/
-
+.vscode/
