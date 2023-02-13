@@ -9,6 +9,9 @@
 #include <vector>
 #include <fstream>
 #include <iterator>
+//#include <thrust/device_vector.h>
+//#include <thrust/host_vector.h>
+//#include <eigen3/Eigen/Dense>
 
 /*
 This folllows the simple zig-zag demographic model of schiffels-dubin for a single population:
@@ -65,7 +68,7 @@ demes:
 
       */
 
-void run_validation_test(float mut_rate, float sel_coef, int num_samples)
+void run_validation_test(const float sel_coef, const int num_samples, const std::string file_name)
 {
     typedef std::vector<Sim_Model::demography_constant> dem_const;                                                        // vector of all the population sizes
     typedef Sim_Model::demography_piecewise<Sim_Model::demography_constant, Sim_Model::demography_constant> epoch_0_to_1; // initiali expansion
@@ -256,10 +259,10 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     epoch_33_to_34 epoch_33(epoch_32, pop_history[34], inflection_points[34]);
     epoch_34_to_35 epoch_34(epoch_33, pop_history[35], inflection_points[35]);
     epoch_35_to_36 epoch_35(epoch_34, pop_history[36], inflection_points[36]);
-    std::cout << "Finished creating demographic events" << std::endl;
-    std::cout << "Something happening here: " << pop_history[37].N << " inflection point: " << inflection_points[37] << std::endl; 
+    std::cout << "Starting final demography epoch: " << pop_history[37].N << " inflection point: " << inflection_points[37] << std::endl; 
 
     epoch_36_to_37 epoch_36(epoch_35, pop_history[37], inflection_points[37]); // final population size of one million
+    std::cout << "Finished creating demographic events" << std::endl;
 
     // Migration parameters, no--migration
     mig_const mig_model;
@@ -269,7 +272,7 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
 
     // SFS parameters
     int sample_size = num_samples; // number of samples in SFS
-    int num_iter = 10;              // number of iterations
+    const int num_iter = 5;              // number of iterations
     Spectrum::SFS my_spectra;
 
     cudaEvent_t start, stop; // CUDA timing functions
@@ -279,12 +282,11 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
 
     float avg_num_mutations = 0;
     float avg_num_mutations_sim = 0;
-    std::vector<std::vector<float>> results(num_iter); // storage for SFS results
-    for (int j = 0; j < num_iter; j++)
-    {
-        results[j].reserve(sample_size);
-    }
-    //std::cout << "Starting iteration 1 of simulation" << std::endl;
+    std::vector<std::vector<float>> results(num_iter,  std::vector<float> (sample_size, 0)); // storage for SFS results
+    std::vector<float> average(sample_size, 0.0);
+    
+    //thrust::device_vector<float> results; // ideally something like this eventually: https://stackoverflow.com/questions/21428378/reduce-matrix-columns-with-cuda
+    std::cout << "Starting iteration 1 of simulation" << std::endl;
     for (int j = 0; j < num_iter; j++)
     {
         if (j == num_iter / 2)
@@ -299,12 +301,22 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
 
         avg_num_mutations += ((float)my_spectra.num_mutations) / num_iter;
         avg_num_mutations_sim += b.maximal_num_mutations() / num_iter;
-
+        
         for (int i = 0; i < sample_size; i++)
         {
             results[j][i] = my_spectra.frequency_spectrum[i];
-        }
+            // calculates average, // [ old_average * (n-1) + new_value ] / n
+            if (j == 0)
+            {
+                average[i] += my_spectra.frequency_spectrum[i]; 
+            }
+            else
+            {
+                average[i] = (average[i] * (j-1.0) + my_spectra.frequency_spectrum[i]) * 1.0/j;
+            }
+        }    
     }
+    std::cout << "Finished all iterations of simulation" << std::endl;
 
     elapsedTime = 0;
     cudaEventRecord(stop, 0);
@@ -312,33 +324,16 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
     cudaEventElapsedTime(&elapsedTime, start, stop);
     cudaEventDestroy(start);
     cudaEventDestroy(stop);
-    /*
-    // output SFS simulation results
-    std::cout << "SFS :" << std::endl
-              << "allele count\tavg# mutations\tstandard dev\tcoeff of variation (aka relative standard deviation)" << std::endl;
-    for (int i = 1; i < sample_size; i++)
-    {
-        double avg = 0;
-        double std = 0;
-        float num_mutations;
-        for (int j = 0; j < num_iter; j++)
-        {
-            num_mutations = b.num_sites() - results[j][0];
-            avg += results[j][i] / (num_iter * num_mutations);
-        }
-        for (int j = 0; j < num_iter; j++)
-        {
-            num_mutations = b.num_sites() - results[j][0];
-            std += 1.0 / (num_iter - 1) * pow(results[j][i] / num_mutations - avg, 2);
-        }
-        std = sqrt(std);
-        std::cout << i << "\t" << avg << "\t" << std << "\t" << (std / avg) << std::endl;
-    }
-`   */
-    std::ofstream output_file("./out_sfs_57_epoch.txt");
+
+    std::ofstream output_file(file_name);
+    std::string output_file_name_debug = "last_sim_" + file_name;
+    std::ofstream output_file2(output_file_name_debug);
+
     for (int i = 0; i < sample_size; i++)
     {
-        output_file << my_spectra.frequency_spectrum[i] << "\n";
+        output_file << average[i] << "\n";
+        output_file2 << my_spectra.frequency_spectrum[i] << "\n";;
+
     }
 
     std::cout << "\nnumber of sites in simulation: " << b.num_sites() << "\ncompact interval: " << b.last_run_constants().compact_interval;
@@ -352,17 +347,12 @@ void run_validation_test(float mut_rate, float sel_coef, int num_samples)
 int main(int argc, char **argv)
 
 {
-    // this is the mutation rate scaled with respect to number of sites, mutation_rate*(number of sites)
-    float mut_rate = 0.3426;
     // this is a point selection coefficient the selection coefficient will remain the same for the population, this is the un-scaled selection coefficient
     float PointSel = -.005;
     int num_samples = 1000;
+    std::string file_name = "out_file.txt";
 
-    // Number of samples for to generate for the site-frequency spectrum (SFS
-
-    // Eventually this will read in a demographic history file for easier command line use instead of having to re-compile for every new demography <- possible but will still require a compilation step as Functors (functions passed as templates) need to be known at compile time (a requirement of GPUs), I have not yet added the ability to do this to the library, technically there are other libraries that will allow this, but I haven't merged them with my API to make it easy. It's on my TODO list
-
-    if (argc != 4) // 3 Total parameters, [executable, scaled mutation rate, unscaled selection coefficient, num_samples]
+    if (argc != 4) // 3 Total parameters, [executable, unscaled selection coefficient, num_samples, file_seed]
     {
         fprintf(stderr, "Error: The number of arguments given in the command line is not correct. In this version you need to pass in a selection cofficient and unscaled mutation rate, format is: ./GOFish scaled_mutation_rate unscaled_selection coefficient num_samples \n");
         // exit(8);
@@ -370,17 +360,17 @@ int main(int argc, char **argv)
     }
     else
     {
+        PointSel = atof(argv[1]);
+        num_samples = atoi(argv[2]);
+        file_name = argv[3];
 
-        mut_rate = atof(argv[1]);
-        PointSel = atof(argv[2]);
-        num_samples = atoi(argv[3]);
     }
 
-    std::cout << "Scaled Mutation Rate: " << mut_rate << std::endl;
+    std::cout << "Currently we are using a scaled Mutation Rate pf .3426: " << std::endl;
     std::cout << "Inscaled Point Selection: " << PointSel << std::endl;
     std::cout << "Number of samples to generate SFS: " << num_samples << std::endl;
 
     std::cout << "Running simulations" << std::endl;
 
-    run_validation_test(mut_rate, PointSel, num_samples);
+    run_validation_test(PointSel, num_samples, file_name);
 }
