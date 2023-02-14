@@ -24,7 +24,7 @@ def get_data_and_put(data_path: str):
     sel_sfs_dict = SortedDict()
     for a_file in sel_list_files:
         sel_coef = regex_capture_selection_coef.search(a_file)[1] # gets the actual selection coefficient
-        the_sfs = np.loadtxt(a_file, dtype=float)[1:] # first line is number of mutations
+        the_sfs = -1*np.abs(np.loadtxt(a_file, dtype=float)[1:]) # first line is number of mutations and need to make sure negative selection
         sel_sfs_dict[sel_coef] = the_sfs
 
 
