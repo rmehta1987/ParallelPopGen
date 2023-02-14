@@ -123,7 +123,8 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     Sim_Model::F_mu_h_constant outbred(0.f);     // inbreeding (outbred)
 
     // Sim_Model::F_mu_h_constant mutation((float) mut_rate / (b.num_sites())); 	//per-site mutation rate 10^-9
-    Sim_Model::F_mu_h_constant mutation(9.6111f * pow(10.f, -9)); // per-site mutation rate -- testing -- need to get from command line
+    //Sim_Model::F_mu_h_constant mutation(9.6111f * pow(10.f, -9)); // per-site mutation rate -- testing -- need to get from command line
+	Sim_Model::F_mu_h_constant mutation(7.1111f * pow(10.f, -10)); // per-site mutation rate for the loss of function mutations
 
     // Demographic model
     // needs to be inverted as specified above
