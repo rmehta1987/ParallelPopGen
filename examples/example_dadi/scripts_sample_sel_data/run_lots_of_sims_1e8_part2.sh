@@ -5,9 +5,16 @@ if ! [ -x "$(command -v sinfo)" ]; then
   echo 'on local computer'
   echo $PATH
 else
-  export PATH=$PATH:/project2/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
-  echo 'on cluster'
-  echo $PATH
+  nameofhost = hostname
+  if [[$nameofhost =~ "midway2"]]
+  then
+    export PATH=$PATH:/project2/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
+    echo 'on midway2 cluster'
+    echo $PATH
+  else
+    export PATH=$PATH:/project/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
+    echo 'on midway3 cluster'
+    echo $PATH
 fi
 
 while IFS= read -r line

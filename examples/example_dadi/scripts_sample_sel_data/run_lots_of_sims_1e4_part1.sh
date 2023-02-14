@@ -1,14 +1,20 @@
 #!/bin/bash
-input="scripts_sample_sel_data/uniform_samples_1e_4_5e_4_part1.txt"
+input="scripts_sample_sel_data/uniform_samples_1e_4_5e_4_part2.txt"
 if ! [ -x "$(command -v sinfo)" ]; then
   export PATH=$PATH:/home/rahul/PopGen/ParallelPopGen-0.3.2/examples/example_dadi/GOFish_57_epoch
   echo 'on local computer'
   echo $PATH
 else
-  export PATH=$PATH:/project2/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
-  echo 'on cluster'
-  echo $PATH
-fi
+  nameofhost = hostname
+  if [[$nameofhost =~ "midway2"]]
+  then
+    export PATH=$PATH:/project2/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
+    echo 'on midway2 cluster'
+    echo $PATH
+  else
+    export PATH=$PATH:/project/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
+    echo 'on midway3 cluster'
+    echo $
 
 while IFS= read -r line
 do
