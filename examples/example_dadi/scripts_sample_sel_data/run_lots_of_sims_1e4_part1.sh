@@ -15,6 +15,8 @@ else
     export PATH=$PATH:/project/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
     echo 'on midway3 cluster'
     echo $
+    fi
+fi
 
 while IFS= read -r line
 do
