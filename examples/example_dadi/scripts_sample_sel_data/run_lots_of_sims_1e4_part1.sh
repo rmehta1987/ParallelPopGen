@@ -14,7 +14,7 @@ else
   else
     export PATH=$PATH:/project/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
     echo 'on midway3 cluster'
-    echo $
+    echo $PATH
     fi
 fi
 
