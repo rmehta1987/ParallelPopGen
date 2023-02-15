@@ -1,3 +1,4 @@
 # Ignore everything
 .vscode/
 examples/example_dadi/simdata
+*sfs_out*.txt

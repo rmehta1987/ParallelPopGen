@@ -1,0 +1,159 @@
+scripts_sample_sel_data/run_lots_of_sims_1e4_part1.sh: line 8: nameofhost: command not found
+scripts_sample_sel_data/run_lots_of_sims_1e4_part1.sh: line 9: [[: command not found
+on midway3 cluster
+/software/cuda-11.7-el8-x86_64/bin:/software/emacs-27.2-el8-x86_64/bin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/tmux-3.2a-el8-x86_64/bin:/software/libevent-2.1.12-el8-x86_64/bin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/bin:/software/slurm-current-el8-x86_64/bin:/software/modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/thinlinc/bin:/project/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00125309
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 683311
+average number of mutations in SFS: 380044
+time elapsed (ms): 3187.34
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00125668
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 683340
+average number of mutations in SFS: 380051
+time elapsed (ms): 3196.47
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00125855
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 682868
+average number of mutations in SFS: 379811
+time elapsed (ms): 3193.13
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00126084
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 682692
+average number of mutations in SFS: 379615
+time elapsed (ms): 3188.54
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.0012625
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 682536
+average number of mutations in SFS: 379510
+time elapsed (ms): 3197.93
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00126282
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 682483
+average number of mutations in SFS: 379467
+time elapsed (ms): 3192.48
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00126593
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 682549
+average number of mutations in SFS: 379365
+time elapsed (ms): 3239.71
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00126619
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 5
+average number of mutations in simulation: 682264
+average number of mutations in SFS: 379318
+time elapsed (ms): 3193
+Currently we are using a scaled Mutation Rate pf .3426: 
+Inscaled Point Selection: -0.00126644
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 1000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
