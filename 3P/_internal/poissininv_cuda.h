@@ -12,7 +12,7 @@
 
 // include CUDA header which defines Inf and NaN constants
 
-#include <math_constants.h>
+#include<math_constants.h>
 
 //
 // This single precision function computes the inverse

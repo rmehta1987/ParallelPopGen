@@ -1,2 +1,3 @@
 # Ignore everything
 .vscode/
+examples/example_dadi/simdata

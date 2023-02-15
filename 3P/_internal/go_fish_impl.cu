@@ -162,7 +162,7 @@ __global__ void scatter_arrays(float * new_mutations_freq, int4 * new_mutations_
 		//parallel prefix sum
 #pragma unroll
 		for(int offset = 1; offset < 32; offset<<=1){
-			unsigned int n = __shfl_up(cnt, offset);
+			unsigned int n = __shfl_up_sync(0xffffffff, cnt, offset); // -- changed for compute code 7.0
 			if(lnID >= offset) cnt += n;
 		}
 
@@ -170,9 +170,9 @@ __global__ void scatter_arrays(float * new_mutations_freq, int4 * new_mutations_
 		if(warpID > 0) global_index = scan_Index[warpID - 1];
 
 		for(int i = 0; i < 32; i++){
-			unsigned int mask = __shfl(predmask, i); //broadcast from thread i
+			unsigned int mask = __shfl_sync(0xffffffff, predmask, i); //broadcast from thread i -- changed for compute code 7.0
 			unsigned int sub_group_index = 0;
-			if(i > 0) sub_group_index = __shfl(cnt, i-1);
+			if(i > 0) sub_group_index = __shfl_sync(0xffffffff, cnt, i-1); // -- changed for compute code 7.0
 			if(mask & (1 << lnID)){
 				int write = global_index + sub_group_index + __popc(mask & ((1 << lnID) - 1));
 				int read = (warpID<<10)+(i<<5)+lnID;
