@@ -26,11 +26,11 @@ do
    filename="sfs_out_selection_{$line}.txt" 
    #echo "Output file name is $filename"
    #echo "Already negative selection"
-  ./GOFish_57_epoch $line 113770 $filename
+  ./GOFish_57_epoch $line 111710 $filename
   else
     line="-$line"
     filename="sfs_out_selection_{$line}.txt" 
     #echo "Output fileclear name is $filename"
-    ./GOFish_57_epoch $line 113770 $filename
+    ./GOFish_57_epoch $line 111710 $filename
   fi
 done < "$input"
