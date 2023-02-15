@@ -16,7 +16,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math_constants.h>
 #include "../_outside_libraries/Random123/philox.h"
 #include "../_outside_libraries/Random123/features/compilerfeatures.h"
 
