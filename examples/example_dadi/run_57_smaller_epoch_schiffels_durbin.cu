@@ -123,8 +123,8 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     Sim_Model::F_mu_h_constant outbred(0.f);     // inbreeding (outbred)
 
     // Sim_Model::F_mu_h_constant mutation((float) mut_rate / (b.num_sites())); 	//per-site mutation rate 10^-9
-    //Sim_Model::F_mu_h_constant mutation(9.6111f * pow(10.f, -9)); // per-site mutation rate -- testing -- need to get from command line
-	Sim_Model::F_mu_h_constant mutation(7.1111f * pow(10.f, -10)); // per-site mutation rate for the loss of function mutations
+    Sim_Model::F_mu_h_constant mutation(9.6111f * pow(10.f, -9)); // per-site mutation rate -- testing -- need to get from command line
+	//Sim_Model::F_mu_h_constant mutation(7.1111f * pow(10.f, -10)); // per-site mutation rate for the loss of function mutations
 
     // Demographic model
     // needs to be inverted as specified above
@@ -327,13 +327,13 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     cudaEventDestroy(stop);
 
     std::ofstream output_file(file_name);
-    std::string output_file_name_debug = "last_sim_" + file_name;
-    std::ofstream output_file2(output_file_name_debug);
+    //std::string output_file_name_debug = "last_sim_" + file_name;
+    //std::ofstream output_file2(output_file_name_debug);
 
     for (int i = 0; i < sample_size; i++)
     {
         output_file << average[i] << "\n";
-        output_file2 << my_spectra.frequency_spectrum[i] << "\n";;
+        //output_file2 << my_spectra.frequency_spectrum[i] << "\n";;
 
     }
 
@@ -368,7 +368,7 @@ int main(int argc, char **argv)
     }
 
     std::cout << "Currently we are using a scaled Mutation Rate pf .3426: " << std::endl;
-    std::cout << "Inscaled Point Selection: " << PointSel << std::endl;
+    std::cout << "Unscaled Point Selection: " << PointSel << std::endl;
     std::cout << "Number of samples to generate SFS: " << num_samples << std::endl;
 
     std::cout << "Running simulations" << std::endl;

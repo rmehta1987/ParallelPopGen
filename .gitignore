@@ -1,4 +1,6 @@
-# Ignore everything
+
 .vscode/
 examples/example_dadi/simdata
 *sfs_out*.txt
+missense_sim_sfs_data/
+
