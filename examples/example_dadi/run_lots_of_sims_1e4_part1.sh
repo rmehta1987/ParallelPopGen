@@ -1,5 +1,5 @@
 #!/bin/bash
-input="scripts_sample_sel_data/uniform_samples_1e_4_5e_4_part1.txt"
+input="scripts_sample_sel_data/uniform_samples_1e_4_5e_4_part2.txt"
 if ! [ -x "$(command -v sinfo)" ]; then
   export PATH=$PATH:/home/rahul/PopGen/ParallelPopGen-0.3.2/examples/example_dadi/GOFish_57_epoch
   echo 'on local computer'
