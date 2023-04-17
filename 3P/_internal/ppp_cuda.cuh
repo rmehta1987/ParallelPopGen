@@ -13,6 +13,8 @@
 using namespace cooperative_groups;
 #include <memory>
 #include "../_internal/ppp_types.hpp"
+#include <stdio.h>
+#include <stdlib.h>
 
 /* ----- cuda vector math functions ----- */
 
