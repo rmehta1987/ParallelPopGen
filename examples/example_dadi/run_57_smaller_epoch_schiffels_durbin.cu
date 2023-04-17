@@ -123,8 +123,10 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     Sim_Model::F_mu_h_constant outbred(0.f);     // inbreeding (outbred)
 
     // Sim_Model::F_mu_h_constant mutation((float) mut_rate / (b.num_sites())); 	//per-site mutation rate 10^-9
-    //Sim_Model::F_mu_h_constant mutation(9.6111f * pow(10.f, -9)); // per-site mutation rate -- testing -- need to get from command line
-	Sim_Model::F_mu_h_constant mutation(7.1111f * pow(10.f, -10)); // per-site mutation rate for the loss of function mutations
+    //Sim_Model::F_mu_h_constant mutation(9.51666667f * pow(10.f, -9)); // per-site mutation rate for missense
+	//Sim_Model::F_mu_h_constant mutation(7.1111f * pow(10.f, -10)); // per-site mutation rate for the loss of function mutations
+    Sim_Model::F_mu_h_constant mutation(1.24f * pow(10.f, -8)); // genome-wide mutation rate https://www.biorxiv.org/content/10.1101/2022.07.11.499645v1.full.pdf
+    
 
     // Demographic model
     // needs to be inverted as specified above
@@ -169,7 +171,7 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     pop_history.push_back(13292);
     pop_history.push_back(14522);
     pop_history.push_back(613285);
-    pop_history.push_back(1000000); // final size is 1,000,000
+    pop_history.push_back(2500000); // final size is 5,000,000
 
     //for (int i = 0; i < pop_history.size(); i++)
     //{
@@ -215,7 +217,7 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     inflection_points.push_back(55688);
     inflection_points.push_back(55816);
     inflection_points.push_back(55890);
-    inflection_points.push_back(55940); // last 50 generations had a pop size of one million
+    inflection_points.push_back(55940); // last 50 generations had a pop size of five million
     //for (int i = 0; i < pop_history.size(); i++)
     //{
     //    std::cout << "inflection_point: " << inflection_points[i] << std::endl;
@@ -273,7 +275,7 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
 
     // SFS parameters
     int sample_size = num_samples; // number of samples in SFS
-    const int num_iter = 10;              // number of iterations
+    const int num_iter = 4;              // number of iterations
     Spectrum::SFS my_spectra;
 
     cudaEvent_t start, stop; // CUDA timing functions
@@ -287,16 +289,17 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     std::vector<float> average(sample_size, 0.0);
     
     //thrust::device_vector<float> results; // ideally something like this eventually: https://stackoverflow.com/questions/21428378/reduce-matrix-columns-with-cuda
-    std::cout << "Starting iteration 1 of simulation" << std::endl;
+    std::cout << "Starting iteration 0 of simulation" << std::endl;
     for (int j = 0; j < num_iter; j++)
     {
         if (j == num_iter / 2)
         {
+            
             cudaEventRecord(start, 0);
         } // use 2nd half of the simulations to time simulation runs + SFS creation
 
-        b.sim_input_constants.seed1 = 0xbeeff00d + 2 * j; // random number seeds
-        b.sim_input_constants.seed2 = 0xdecafbad - 2 * j;
+        b.sim_input_constants.seed1 = 0xbeeff00d + 2 * j+3; // random number seeds
+        b.sim_input_constants.seed2 = 0xdecafbad - 2 * j+6;
         GO_Fish::run_sim(b, mutation, epoch_36, mig_model, weak_del, outbred, codominant, Sim_Model::bool_off(), Sim_Model::bool_off());
         Spectrum::site_frequency_spectrum(my_spectra, b, 0, 0, sample_size);
 
@@ -315,7 +318,11 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
             {
                 average[i] = (average[i] * (j-1.0) + my_spectra.frequency_spectrum[i]) * 1.0/j;
             }
-        }    
+        }
+        if (j%2==0)
+        {
+             std::cout << "Finished iteration " << j << " of simulation" << std::endl;
+        }
     }
     std::cout << "Finished all iterations of simulation" << std::endl;
 

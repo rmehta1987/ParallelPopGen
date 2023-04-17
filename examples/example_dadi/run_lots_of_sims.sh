@@ -20,14 +20,14 @@ else
     fi
 fi
 
-input='unlearned_proposals.txt'
+input='linspace_.990_1.txt'
 while read -r line
 do
   # make sure negative selection
   if [[ ${line:0:1} == "-" ]]
   then
    filename="sfs_out_selection_{$line}.txt" 
-   #echo "Output file name is $filename"
+   echo "Output file name is $filename"
    #echo "Already negative selection"
   $acmd $line 111710 $filename
   else

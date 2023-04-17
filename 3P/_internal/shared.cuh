@@ -295,6 +295,13 @@ __host__ __device__ __forceinline__ int ApproxRandBinom1(float mean, float var, 
 	return round(normcdfinv(uint_float_01(i.x))*sqrtf(var)+mean);
 }
 
+__host__ __device__ __forceinline__ int ApproxRandGamma(float shape, float scale, float p, float N, int2 seed, int id, int generation, int population){
+	uint4 i = Philox(seed, id, generation, population, 0);
+    
+	
+}
+
+
 //faster on if don't inline on both GPUs!
 __device__ int ApproxRandBinomHelper(unsigned int i, float mean, float var, float N);
 
