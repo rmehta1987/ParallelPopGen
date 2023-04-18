@@ -40,7 +40,7 @@ EXEC_FILE = GOFish
 
 NVCC = nvcc -std=c++14
 CFLAGS = -O3 --expt-relaxed-constexpr -I $(api_path_include)/ -dc
-CODE = --generate-code arch=compute_75,code=sm_75 --generate-code arch=compute_61,code=sm_61 --generate-code arch=compute_30,code=compute_30
+CODE = --generate-code arch=compute_75,code=sm_75 --generate-code arch=compute_61,code=sm_61
 
 object_names = run.o spectrum.o
 objects = $(addprefix $(build_path)/,$(object_names))

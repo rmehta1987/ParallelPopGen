@@ -1,0 +1,17 @@
+Currently we are using a scaled Mutation Rate pf .0256: 
+Unscaled Point Selection: -0.0004
+Number of samples to generate SFS: 169
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 3 3
+Creating the demographic history of epochs
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 36000000
+compact interval: 30
+average number of mutations in simulation: 505060
+average number of mutations in SFS: 65048
+time elapsed (ms): 666.044

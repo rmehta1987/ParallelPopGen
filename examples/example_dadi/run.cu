@@ -40,7 +40,7 @@ auto run_model(float nu1F, float nu2B, float nu2F, float m, float Tp, float T, f
 	//default is no migration, at generation start_growth population 1 splits off from population 0 and they have constant migration at effective rate m between them thereafter
 	auto migration_model =  Sim_Model::make_piecewise_directional_migration_model(cp(0),start_growth,0,1,cp(1),start_growth+1,0,1,cp(eff(m)),start_growth+1,1,0,cp(eff(m)));
 
-	return GO_Fish::run_sim({seed1,seed2,num_gens,num_sites,2,true,0,GO_Fish::compact_scheme::compact_all,35,1}, cp(eff(mu)), demography_model, migration_model, cp(eff(-4.f)), cp(0), cp(0.5), Sampling::off());
+	return GO_Fish::run_sim({seed1,seed2,num_gens,num_sites,2,true,0,GO_Fish::compact_scheme::compact_all,35,0}, cp(eff(mu)), demography_model, migration_model, cp(eff(-4.f)), cp(0), cp(0.5), Sampling::off());
 }
 
 void print_sfs(float nu1F, float nu2B, float nu2F, float m, float Tp, float T, float N_ind, float num_sites, float mu){
@@ -67,4 +67,4 @@ void print_sfs(float nu1F, float nu2B, float nu2F, float m, float Tp, float T, f
 
 ////////////////////////////////////////////////////////////
 
-int main(int argc, char **argv) { print_sfs(2, 0.05, 5, 1, 0.005, 0.045, 1*pow(10.f,4), 2*pow(10.f,7), 2*pow(10.f,-5)); }
+int main(int argc, char **argv) { print_sfs(2, 0.05, 5, 1, 0.005, 0.045, 1*pow(10.f,4), 2*pow(10.f,9), 2*pow(10.f,-5)); }
