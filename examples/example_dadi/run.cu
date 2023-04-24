@@ -49,6 +49,8 @@ void print_sfs(float nu1F, float nu2B, float nu2F, float m, float Tp, float T, f
     Spectrum::SFS my_spectra;
     GO_Fish::allele_trajectories b;
 
+	
+
     std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
     start = std::chrono::high_resolution_clock::now();
 

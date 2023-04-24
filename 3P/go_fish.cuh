@@ -18,7 +18,7 @@
 
 #ifndef GO_FISH_API_H_
 #define GO_FISH_API_H_
-#include "_internal/ppp_cuda.cuh"
+#include "../3P/_internal/ppp_cuda.cuh"
 #include "../3P/go_fish_data_struct.h"
 #include "../3P/sim_model.cuh"
 

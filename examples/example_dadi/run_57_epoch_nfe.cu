@@ -89,6 +89,7 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
     Sim_Model::constant_parameter selection(sel_coef); 				//constant, neutral, selection coefficient
 	Sim_Model::constant_parameter dominance(0.5f); 							//// dominance (co-dominant)
     Sim_Model::constant_parameter mutation_rate(mu); 			    // mutation rate
+    Sim_Model::constant_parameter inbreeding(0.0f); 			    // no inbreeding
     input.num_generations = num_gens;										//1,000 generations in simulation
 	  input.seed1 = seed1; 													//random number seeds
 	  input.seed2 = seed2;	
@@ -97,63 +98,10 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
 
     // Complex UK Biobank Demographic Histroy
     //  I believe it goes - generation pop size_1, generation time_1 then eneration pop size_2, generation time_2
-    auto demography_model = Sim_Model::make_piecewise_population_specific_model(0, cp(14448), 4545, 0, cp(14068), 8483 );
-    //auto demography_model = Sim_Model::make_piecewise_population_specific_model(cp(14448), 4545, 
-    //cp(14068), 8483 
-    // cp(14068), 11956, 
-    // cp(14464), 15063, 
-    // cp(14464), 17873, 
-    // cp(15208), 20439, 
-    // cp(15208), 22799, 
-    // cp(16256), 24984, 
-    // cp(16256), 27018, 
-    // cp(17618), 28922, 
-    // cp(17618), 30709, 
-    // cp(19347), 32395, 
-    // cp(19347), 33989,
-    // cp(21534), 35501,
-    // cp(21534), 36940,
-    // cp(24236), 38312,
-    // cp(24236), 39622,
-    // cp(27367), 40877,
-    // cp(27367), 42081,
-    // cp(30416), 43238,
-    // cp(30416), 44350,
-    // cp(32060), 45423,
-    // cp(32060), 46458,
-    // cp(31284), 47457,
-    // cp(29404), 48424,
-    // cp(26686), 49360,
-    // cp(23261), 50268,
-    // cp(18990), 50420,
-    // cp(16490), 50784,
-    // cp(16490), 51123,
-    // cp(12958), 51440,
-    // cp(12958), 51737,
-    // cp(7477), 52536,
-    // cp(7477), 52775,
-    // cp(5791), 53004,
-    // cp(5791), 53222,
-    // cp(4670), 53431,
-    // cp(4670), 53632,
-    // cp(3841), 53824,
-    // cp(3841), 54010,
-    // cp(3372), 54188,
-    // cp(3372), 54361,
-    // cp(3287), 54527,
-    // cp(3359), 54688,
-    // cp(3570), 54844,
-    // cp(4713), 55142,
-    // cp(5661), 55284,
-    // cp(7540), 55423,
-    // cp(11375), 55557,
-    // cp(14310), 55688,
-    // cp(13292), 55816,
-    // cp(14522), 54361,
-    // cp(613285), 55890,
-    // cp(5000000), 55940); // last one is the additional 50 generations 
+    auto demography_model = Sim_Model::make_piecewise_evolution_model(cp(14448), 4545, cp(200000), 8483);
+    
 
-	return GO_Fish::run_sim(input, mutation_rate , demography_model, migration , selection, dominance, Sampling::off());
+	return GO_Fish::run_sim(input, mutation_rate , demography_model, migration , selection, inbreeding, dominance, Sampling::off());
 }
 
 void print_sfs(int num_iterations, int num_samples, float num_sites, float mu, float sel_coef){
@@ -193,7 +141,7 @@ int main(int argc, char **argv)
 
     // this is a point selection coefficient the selection coefficient will remain the same for the population, this is the un-scaled selection coefficient
     float PointSel = -.005;
-    int num_samples = 113000;
+    int num_samples = 10000;
     float mutrate = (9.6111f * pow(10.f, -9));
     std::string file_name = "out_file.txt";
 
@@ -201,7 +149,7 @@ int main(int argc, char **argv)
 
     // Eventually this will read in a demographic history file for easier command line use instead of having to re-compile for every new demography <- possible but will still require a compilation step as Functors (functions passed as templates) need to be known at compile time (a requirement of GPUs), I have not yet added the ability to do this to the library, technically there are other libraries that will allow this, but I haven't merged them with my API to make it easy. It's on my TODO list
 
-    if (argc != 4) // 3 Total parameters, [executable, scaled mutation rate, unscaled selection coefficient, num_samples]
+    if (argc != 3) // 3 Total parameters, [executable, unscaled selection coefficient, num_samples, file_name]
     {
         fprintf(stderr, "Error: The number of arguments given in the command line is not correct. In this version you need to pass in a selection cofficient and unscaled mutation rate, format is: ./GOFish unscaled_selection coefficient num_samples \n");
         // exit(8);
