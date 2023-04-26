@@ -115,8 +115,8 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     GO_Fish::allele_trajectories b;
     b.sim_input_constants.num_populations = 1; // number of populations
     b.sim_input_constants.num_generations = 55950;
-    //b.sim_input_constants.num_sites = 36.0f * pow(10.f, 6); // Should be 36 Megabase pairs for gnomaAD data
-    b.sim_input_constants.num_sites = 133.0f * pow(10.f, 6); // Number of base pairs in chromosome 10
+    b.sim_input_constants.num_sites = 36.0f * pow(10.f, 6); // Should be 36 Megabase pairs for gnomaAD data
+    //b.sim_input_constants.num_sites = 133.0f * pow(10.f, 6); // Number of base pairs in chromosome 10
     b.sim_input_constants.compact_interval = 5;
     // Mutation and dominance parameters TODO Change dominance paramater to that of stabalizing selection
 
@@ -124,9 +124,9 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     Sim_Model::F_mu_h_constant outbred(0.f);     // inbreeding (outbred)
 
     // Sim_Model::F_mu_h_constant mutation((float) mut_rate / (b.num_sites())); 	//per-site mutation rate 10^-9
-    //Sim_Model::F_mu_h_constant mutation(9.51666667f * pow(10.f, -9)); // per-site mutation rate for missense
+    Sim_Model::F_mu_h_constant mutation(9.61666667f * pow(10.f, -9)); // per-site mutation rate for missense
 	//Sim_Model::F_mu_h_constant mutation(7.1111f * pow(10.f, -10)); // per-site mutation rate for the loss of function mutations
-    Sim_Model::F_mu_h_constant mutation(1.24f * pow(10.f, -8)); // genome-wide mutation rate https://www.biorxiv.org/content/10.1101/2022.07.11.499645v1.full.pdf
+    //Sim_Model::F_mu_h_constant mutation(1.24f * pow(10.f, -8)); // genome-wide mutation rate https://www.biorxiv.org/content/10.1101/2022.07.11.499645v1.full.pdf
     
 
     // Demographic model
