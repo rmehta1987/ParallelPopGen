@@ -135,7 +135,7 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
     cp(13292), 55816,
     cp(14522), 54361,
     cp(613285), 55890,
-    cp(1000000), 55940); // last one is the additional 50 generations 
+    cp(5000000), 55940); // last one is the additional 50 generations 
     
 
 	return GO_Fish::run_sim(input, mutation_rate , demography_model, migration , selection, inbreeding, dominance, Sampling::off());
@@ -187,18 +187,15 @@ void print_sfs(int num_iterations, int num_samples, float num_sites, float mu, f
   std::ofstream output_file(file_name);
     //std::string output_file_name_debug = "last_sim_" + file_name;
     //std::ofstream output_file2(output_file_name_debug);
-
+    std::cout<<"\n Saving SFS to: "<< file_name << std::endl;
     for (int i = 0; i < sample_size; i++)
     {
         output_file << average[i] << "\n";
+        
         //output_file2 << my_spectra.frequency_spectrum[i] << "\n";;
 
     }
-	
-  /*for(int i = 1; i < sample_size; i++)
-  { 
-      std::cout<< my_spectra.frequency_spectrum[i]/my_spectra.num_mutations << std::endl; 
-  }*/
+
 
   
     
@@ -222,7 +219,7 @@ int main(int argc, char **argv)
 
     // Eventually this will read in a demographic history file for easier command line use instead of having to re-compile for every new demography <- possible but will still require a compilation step as Functors (functions passed as templates) need to be known at compile time (a requirement of GPUs), I have not yet added the ability to do this to the library, technically there are other libraries that will allow this, but I haven't merged them with my API to make it easy. It's on my TODO list
 
-    if (argc != 3) // 3 Total parameters, [executable, unscaled selection coefficient, num_samples, file_name]
+    if (argc != 4) // 3 Total parameters, [executable, unscaled selection coefficient, num_samples, file_name]
     {
         fprintf(stderr, "Warning: The number of arguments given in the command line is not correct. In this version you need to pass in a selection cofficient sample size, and output_file name, format is: ./GOFish unscaled_selection coefficient num_samples out_file_name\n");
         std::cout << "Using default values" << std::endl;
