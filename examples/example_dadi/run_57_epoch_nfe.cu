@@ -101,6 +101,7 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
 
     // Complex UK Biobank Demographic Histroy
     //  I believe it goes - generation pop size_1, generation time_1 then eneration pop size_2, generation time_2
+    /*
     auto demography_model = Sim_Model::make_piecewise_evolution_model(cp(14448), 4545,  cp(14068), 8483, 
     cp(14068), 11956, 
     cp(14464), 15063,    
@@ -137,11 +138,11 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
     cp(14522), 54361,
     cp(613285), 55890,
     cp(5000000), 55940); // last one is the additional 50 generations 
-
+    */
 
     typedef std::vector<Sim_Model::constant_parameter> dem_const;                                                        // vector of all the population sizes
-    typedef Sim_Model::constant_parameter<Sim_Model::constant_parameter, Sim_Model::constant_parameter> epoch_0_to_1; // initiali expansion
-    typedef Sim_Model::constant_parameter<epoch_0_to_1, Sim_Model::constant_parameter> epoch_1_to_2;
+    typedef Sim_Model::demography_piecewise<Sim_Model::constant_parameter, Sim_Model::constant_parameter> epoch_0_to_1; // initiali expansion
+    typedef Sim_Model::demography_piecewise<epoch_0_to_1, Sim_Model::constant_parameter> epoch_1_to_2;
     typedef Sim_Model::demography_piecewise<epoch_1_to_2, Sim_Model::constant_parameter> epoch_2_to_3;
     typedef Sim_Model::demography_piecewise<epoch_2_to_3, Sim_Model::constant_parameter> epoch_3_to_4;
     typedef Sim_Model::demography_piecewise<epoch_3_to_4, Sim_Model::constant_parameter> epoch_4_to_5;
@@ -312,7 +313,7 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
     epoch_33_to_34 epoch_33(epoch_32, pop_history[34], inflection_points[34]);
     epoch_34_to_35 epoch_34(epoch_33, pop_history[35], inflection_points[35]);
     epoch_35_to_36 epoch_35(epoch_34, pop_history[36], inflection_points[36]);
-    std::cout << "Starting final demography epoch: " << pop_history[37].N << " inflection point: " << inflection_points[37] << std::endl; 
+    //std::cout << "Starting final demography epoch: " << pop_history[37] << " inflection point: " << inflection_points[37] << std::endl; 
 
     epoch_36_to_37 epoch_36(epoch_35, pop_history[37], inflection_points[37]); // final population size of one million
     std::cout << "Finished creating demographic events" << std::endl;

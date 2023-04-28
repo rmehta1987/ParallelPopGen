@@ -40,6 +40,21 @@ struct constant_parameter
 	__host__ __device__ __forceinline__ float operator()(Args ...) const; /**<\brief operator, returns parameter, for a given `population, generation, ...` */ /**<\t*/
 };
 
+///functor: demography function changes from \p d1 to \p d2 at generation \p inflection_point
+template <typename Functor_d1, typename Functor_d2>
+struct demography_piecewise
+{
+	int inflection_point; /**<\brief generation in which the Demographic function switches from `d1` to `d2` */ /**<\t*/
+	int generation_shift; //!<\copydoc Sim_Model::selection_sine_wave::generation_shift
+	Functor_d1 d1; /**<\brief first demographic function */ /**<\t*/
+	Functor_d2 d2; /**<\brief second demographic function */ /**<\t*/
+	inline demography_piecewise(); /**<\brief default constructor */
+	inline demography_piecewise(Functor_d1 d1_in, Functor_d2 d2_in, int inflection_point, int generation_shift = 0); /**<\brief constructor */ /**<\t*/
+	__host__ __device__ __forceinline__ int operator()(const int population, const int generation) const; //!<\copybrief Sim_Model::demography_constant::operator()(const int population, const int generation) const
+};
+
+
+
 ///functor: scales parameter \p p so the effective parameter (Ne_chrome*p) is constant across populations and over time
 template <typename Functor_demography, typename Functor_inbreeding>
 struct constant_effective_parameter

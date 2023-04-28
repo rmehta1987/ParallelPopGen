@@ -54,6 +54,19 @@ struct piecewise_directional_migration{
 	__host__ __device__  bool operator()(const unsigned int gen, const unsigned int pop_from, const unsigned int pop_to) const { return (pop_FROM == pop_from && pop_TO == pop_to && generation <= gen); }
 };
 
+///functor: demography function changes from \p d1 to \p d2 at generation \p inflection_point
+template <typename Functor_d1, typename Functor_d2>
+struct demography_piecewise
+{
+	int inflection_point; /**<\brief generation in which the Demographic function switches from `d1` to `d2` */ /**<\t*/
+	int generation_shift; //!<\copydoc Sim_Model::selection_sine_wave::generation_shift
+	Functor_d1 d1; /**<\brief first demographic function */ /**<\t*/
+	Functor_d2 d2; /**<\brief second demographic function */ /**<\t*/
+	inline demography_piecewise(); /**<\brief default constructor */
+	inline demography_piecewise(Functor_d1 d1_in, Functor_d2 d2_in, int inflection_point, int generation_shift = 0); /**<\brief constructor */ /**<\t*/
+	__host__ __device__ __forceinline__ int operator()(const int population, const int generation) const; //!<\copybrief Sim_Model::demography_constant::operator()(const int population, const int generation) const
+};
+
 template <typename Pred_function, typename Default_evo_function, typename... Evol_functions>
 struct list_of_functions{
 	Default_evo_function myDefault;
@@ -128,6 +141,54 @@ inline constant_parameter::constant_parameter(float p) : p(p){ }
 template<typename... Args>
 __host__ __device__ __forceinline__ float constant_parameter::operator()(Args...) const { return p; }
 /* ----- end constant parameter model ----- */
+
+
+/* ----- piecewise demography model ----- */
+/** \struct demography_piecewise
+ * Takes in two template types: the function to be returned before the `inflection_point` and the function for after the `inflection_point`. \n
+ * Piecewise demographic functors can be nested within each other and with population specific demographic functors for multiple populations and multiple time functions, e.g.:\n\n
+ * Using both demographic and migration functors, population 0 splits in two, forming population 1 in the first generation. Population 1's size increases exponentially afterwards with no further migration between the groups
+ * \code
+   typedef Sim_Model::demography_constant dem_constant;
+   typedef Sim_Model::demography_exponential_growth dem_exponential;
+   typedef Sim_Model::demography_population_specific<dem_constant,dem_constant> dem_pop_constant_constant;
+   typedef Sim_Model::demography_population_specific<dem_constant,dem_exponential> dem_pop_constant_exponential;
+
+   dem_constant d_pop0(100000), d_pop1(0);
+   dem_pop_constant_constant d_generation_0(d_pop0,d_pop1,1); //at the start of the simulation, the first population pop0 starts out at 100,000 individuals, pop1 doesn't exist yet
+   dem_constant d_pop0_1(90000); dem_exponential d_pop1_1(0.01, 10000, 1); //shifts exponential back one generation so it starts at 10,000
+   dem_pop_constant_exponential d_remaining_generations(d_pop0_1,d_pop1_1,1); //in the first generation, 10,000 individuals from pop0 move to start pop1, which grows exponentially afterwards at a rate of 1%
+   Sim_Model::demography_piecewise<dem_pop_constant_constant,dem_pop_constant_exponential> demography_model(d_generation_0,d_remaining_generations,1);
+
+   typedef Sim_Model::migration_constant_equal mig_const_equal;
+   typedef Sim_Model::migration_constant_directional<mig_const_equal> mig_const_equal_const_dir;
+   typedef Sim_Model::migration_constant_directional<mig_const_equal_const_dir> mig_const_equal_const_dir_const_dir;
+   typedef Sim_Model::migration_piecewise<mig_const_equal,mig_const_equal_const_dir_const_dir> split_pop0_gen1;
+   mig_const_equal m0; //no migration
+   mig_const_equal_const_dir m_pop0_pop1(1.f,0,1,m0); //pop1 made up entirely of individuals from pop0, no other population contributing to pop0
+   mig_const_equal_const_dir_const_dir m_pop1_pop1(0.f,1,1,m_pop0_pop1); //pop1 made up entirely of individuals from pop0 (since pop1 previously did not exist, no migration from previous pop1 generation!)
+   split_pop0_gen1 m_generation_1(m0,m_pop1_pop1,1); //no migration in generation 0, splits pop1 off from pop0 in generation 1
+   Sim_Model::migration_piecewise<split_pop0_gen1,mig_const_equal> migration_model(m_generation_1,m0,2); //no further migration between groups \endcode
+   The modularity of these functor templates allow parameter models to be extended to any number of populations and piecewise parameter functions (including user defined functions).
+ **/
+/**`inflection_point = 0` \n `generation_shift = 0` \n
+Function `d1` assigned default constructor of `Functor_d1`\n
+Function `d2` assigned default constructor of `Functor_d2`*/
+template <typename Functor_d1, typename Functor_d2>
+inline demography_piecewise<Functor_d1, Functor_d2>::demography_piecewise() : inflection_point(0), generation_shift(0) { d1 = Functor_d1(); d2 = Functor_d2(); }
+/** \param generation_shift (optional input) default `0` */
+template <typename Functor_d1, typename Functor_d2>
+inline demography_piecewise<Functor_d1, Functor_d2>::demography_piecewise(Functor_d1 d1_in, Functor_d2 d2_in, int inflection_point, int generation_shift /* = 0*/) : inflection_point(inflection_point), generation_shift(generation_shift) { d1 = d1_in; d2 = d2_in; }
+/** `if(generation >= inflection_point+generation_shift) N = d2(population, generation-generation_shift)`\n
+	`else N = d1(population, generation-generation_shift)` */
+template <typename Functor_d1, typename Functor_d2>
+__host__ __device__  __forceinline__ int demography_piecewise<Functor_d1, Functor_d2>::operator()(const int population, const int generation) const{
+	if(generation >= inflection_point+generation_shift){ return d2(population, generation-generation_shift) ; }
+	return d1(population, generation-generation_shift);
+};
+/* ----- end piecewise demography model ----- */
+/* ----- end of demography models ----- */
+
 
 /* ----- constant effective parameter model ----- */
 template <typename Functor_demography, typename Functor_inbreeding>
@@ -476,6 +537,8 @@ __host__ __device__ bool stabilizing_mse_integrand::neutral() const{ return cons
 *  And even then avoid them as they will slow the code down (parameters have to be pulled from the GPU's global memory (vRAM), which is slow).
 *  Statically allocated arrays (e.g. `float f[5]`) are fine.
 */
+
+
 
 
 /* ----- constant directional migration model ----- */
