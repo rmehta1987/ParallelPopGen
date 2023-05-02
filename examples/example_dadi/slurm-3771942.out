@@ -1,0 +1,2873 @@
+run_sims_part1.sh: line 8: nameofhost: command not found
+run_sims_part1.sh: line 9: [[: command not found
+on midway3 cluster
+/software/cuda-11.7-el8-x86_64/bin:/software/python-anaconda-2020.11-el8-x86_64/condabin:/software/python-anaconda-2020.11-el8-x86_64/bin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/bin:/software/slurm-current-el8-x86_64/bin:/software/modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/thinlinc/bin:/project/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
+reading file needknow/sample_10.txt
+Output file name is sfs_out_selection_{-9.120677e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.912068
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.0497e+07
+average number of mutations in SFS: 278036
+time elapsed (ms): 28964.1
+Output file name is sfs_out_selection_{-9.117679e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.911768
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05036e+07
+average number of mutations in SFS: 278140
+time elapsed (ms): 28939.3
+Output file name is sfs_out_selection_{-9.114682e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.911468
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05104e+07
+average number of mutations in SFS: 278228
+time elapsed (ms): 28923
+Output file name is sfs_out_selection_{-9.111684e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.911168
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.0517e+07
+average number of mutations in SFS: 278324
+time elapsed (ms): 28740.8
+Output file name is sfs_out_selection_{-9.108686e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.910869
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05234e+07
+average number of mutations in SFS: 278432
+time elapsed (ms): 29112
+Output file name is sfs_out_selection_{-9.105689e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.910569
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.053e+07
+average number of mutations in SFS: 278528
+time elapsed (ms): 29905.6
+Output file name is sfs_out_selection_{-9.102691e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.910269
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05359e+07
+average number of mutations in SFS: 278608
+time elapsed (ms): 30859.4
+Output file name is sfs_out_selection_{-9.099693e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.909969
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05427e+07
+average number of mutations in SFS: 278720
+time elapsed (ms): 31335.5
+Output file name is sfs_out_selection_{-9.096696e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.90967
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05491e+07
+average number of mutations in SFS: 278808
+time elapsed (ms): 31788.3
+Output file name is sfs_out_selection_{-9.093698e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.90937
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05554e+07
+average number of mutations in SFS: 278900
+time elapsed (ms): 32201.6
+Output file name is sfs_out_selection_{-9.090700e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.90907
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05624e+07
+average number of mutations in SFS: 279008
+time elapsed (ms): 32398.6
+Output file name is sfs_out_selection_{-9.087703e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.90877
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05689e+07
+average number of mutations in SFS: 279100
+time elapsed (ms): 33141.3
+Output file name is sfs_out_selection_{-9.084705e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.908471
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.0575e+07
+average number of mutations in SFS: 279192
+time elapsed (ms): 33370.9
+reading file needknow/sample_11.txt
+Output file name is sfs_out_selection_{-9.081707e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.908171
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05807e+07
+average number of mutations in SFS: 279288
+time elapsed (ms): 33422.2
+Output file name is sfs_out_selection_{-9.078710e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.907871
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05873e+07
+average number of mutations in SFS: 279380
+time elapsed (ms): 34064.6
+Output file name is sfs_out_selection_{-9.075712e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.907571
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.05939e+07
+average number of mutations in SFS: 279492
+time elapsed (ms): 34087.8
+Output file name is sfs_out_selection_{-9.072714e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.907271
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06009e+07
+average number of mutations in SFS: 279584
+time elapsed (ms): 34390.3
+Output file name is sfs_out_selection_{-9.069717e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.906972
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06073e+07
+average number of mutations in SFS: 279684
+time elapsed (ms): 34715.4
+Output file name is sfs_out_selection_{-9.066719e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.906672
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06138e+07
+average number of mutations in SFS: 279784
+time elapsed (ms): 34665.8
+Output file name is sfs_out_selection_{-9.063721e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.906372
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06201e+07
+average number of mutations in SFS: 279884
+time elapsed (ms): 34583.4
+Output file name is sfs_out_selection_{-9.060724e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.906072
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06265e+07
+average number of mutations in SFS: 279972
+time elapsed (ms): 34780.9
+Output file name is sfs_out_selection_{-9.057726e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.905773
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06327e+07
+average number of mutations in SFS: 280072
+time elapsed (ms): 34663.1
+Output file name is sfs_out_selection_{-9.054728e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.905473
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06397e+07
+average number of mutations in SFS: 280184
+time elapsed (ms): 33663.1
+Output file name is sfs_out_selection_{-9.051731e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.905173
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06468e+07
+average number of mutations in SFS: 280280
+time elapsed (ms): 32959.3
+Output file name is sfs_out_selection_{-9.048733e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.904873
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.0653e+07
+average number of mutations in SFS: 280364
+time elapsed (ms): 32736.7
+Output file name is sfs_out_selection_{-9.045735e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.904574
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06597e+07
+average number of mutations in SFS: 280484
+time elapsed (ms): 31158.7
+reading file needknow/sample_12.txt
+Output file name is sfs_out_selection_{-9.042738e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.904274
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.0666e+07
+average number of mutations in SFS: 280568
+time elapsed (ms): 30406.7
+Output file name is sfs_out_selection_{-9.039740e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.903974
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06721e+07
+average number of mutations in SFS: 280684
+time elapsed (ms): 29390.8
+Output file name is sfs_out_selection_{-9.036742e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.903674
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06794e+07
+average number of mutations in SFS: 280772
+time elapsed (ms): 28958.5
+Output file name is sfs_out_selection_{-9.033745e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.903374
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 3.06858e+07
+average number of mutations in SFS: 280876
+time elapsed (ms): 28826.1
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.91555e+07
+average number of mutations in SFS: 6.9779e+06
+time elapsed (ms): 70329
+Output file name is sfs_out_selection_{-6.796797e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.067968
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.16567e+07
+average number of mutations in SFS: 3.63286e+06
+time elapsed (ms): 57570.8
+Output file name is sfs_out_selection_{-6.786787e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0678679
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.16638e+07
+average number of mutations in SFS: 3.63594e+06
+time elapsed (ms): 57577.1
+Output file name is sfs_out_selection_{-6.776777e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0677678
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.16786e+07
+average number of mutations in SFS: 3.63896e+06
+time elapsed (ms): 57622.7
+Output file name is sfs_out_selection_{-6.766767e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0676677
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.16867e+07
+average number of mutations in SFS: 3.64238e+06
+time elapsed (ms): 57727
+Output file name is sfs_out_selection_{-6.756757e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0675676
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.16971e+07
+average number of mutations in SFS: 3.64555e+06
+time elapsed (ms): 57786.1
+Output file name is sfs_out_selection_{-6.746747e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0674675
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17056e+07
+average number of mutations in SFS: 3.64832e+06
+time elapsed (ms): 57818.9
+Output file name is sfs_out_selection_{-6.736737e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0673674
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17149e+07
+average number of mutations in SFS: 3.65176e+06
+time elapsed (ms): 57823.1
+Output file name is sfs_out_selection_{-6.726727e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0672673
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17218e+07
+average number of mutations in SFS: 3.6545e+06
+time elapsed (ms): 57886
+reading file needknow/sample_13.txt
+Output file name is sfs_out_selection_{-6.716717e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0671672
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17351e+07
+average number of mutations in SFS: 3.65793e+06
+time elapsed (ms): 57323.3
+Output file name is sfs_out_selection_{-6.706707e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0670671
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17444e+07
+average number of mutations in SFS: 3.66078e+06
+time elapsed (ms): 57314.8
+Output file name is sfs_out_selection_{-6.696697e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.066967
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17548e+07
+average number of mutations in SFS: 3.66374e+06
+time elapsed (ms): 57509.5
+Output file name is sfs_out_selection_{-6.686687e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0668669
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17616e+07
+average number of mutations in SFS: 3.66663e+06
+time elapsed (ms): 57563.3
+Output file name is sfs_out_selection_{-6.676677e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0667668
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17711e+07
+average number of mutations in SFS: 3.67023e+06
+time elapsed (ms): 57856.3
+Output file name is sfs_out_selection_{-6.666667e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0666667
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17842e+07
+average number of mutations in SFS: 3.67312e+06
+time elapsed (ms): 57748.1
+Output file name is sfs_out_selection_{-6.656657e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0665666
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.17901e+07
+average number of mutations in SFS: 3.676e+06
+time elapsed (ms): 57919.9
+Output file name is sfs_out_selection_{-6.646647e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0664665
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18025e+07
+average number of mutations in SFS: 3.67906e+06
+time elapsed (ms): 57857.1
+Output file name is sfs_out_selection_{-6.636637e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0663664
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18133e+07
+average number of mutations in SFS: 3.68232e+06
+time elapsed (ms): 58077
+Output file name is sfs_out_selection_{-6.626627e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0662663
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18218e+07
+average number of mutations in SFS: 3.68577e+06
+time elapsed (ms): 57995.2
+Output file name is sfs_out_selection_{-6.616617e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0661662
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18288e+07
+average number of mutations in SFS: 3.68814e+06
+time elapsed (ms): 58159.7
+Output file name is sfs_out_selection_{-6.606607e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0660661
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18424e+07
+average number of mutations in SFS: 3.69166e+06
+time elapsed (ms): 58153.7
+Output file name is sfs_out_selection_{-6.596597e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.065966
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.185e+07
+average number of mutations in SFS: 3.69496e+06
+time elapsed (ms): 58262.7
+reading file needknow/sample_14.txt
+Output file name is sfs_out_selection_{-6.586587e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0658659
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.186e+07
+average number of mutations in SFS: 3.69842e+06
+time elapsed (ms): 58197.8
+Output file name is sfs_out_selection_{-6.576577e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0657658
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18718e+07
+average number of mutations in SFS: 3.70126e+06
+time elapsed (ms): 58189.1
+Output file name is sfs_out_selection_{-6.566567e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0656657
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.1879e+07
+average number of mutations in SFS: 3.70406e+06
+time elapsed (ms): 58182.6
+Output file name is sfs_out_selection_{-6.556557e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0655656
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18881e+07
+average number of mutations in SFS: 3.70703e+06
+time elapsed (ms): 58169.9
+Output file name is sfs_out_selection_{-6.546547e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0654655
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.18983e+07
+average number of mutations in SFS: 3.70987e+06
+time elapsed (ms): 58113.9
+Output file name is sfs_out_selection_{-6.536537e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0653654
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19088e+07
+average number of mutations in SFS: 3.71364e+06
+time elapsed (ms): 58122.6
+Output file name is sfs_out_selection_{-6.526527e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0652653
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.1919e+07
+average number of mutations in SFS: 3.71661e+06
+time elapsed (ms): 58120
+Output file name is sfs_out_selection_{-6.516517e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0651652
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19266e+07
+average number of mutations in SFS: 3.72012e+06
+time elapsed (ms): 58156.8
+Output file name is sfs_out_selection_{-6.506507e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0650651
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19375e+07
+average number of mutations in SFS: 3.72311e+06
+time elapsed (ms): 58246.4
+Output file name is sfs_out_selection_{-6.496496e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.064965
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19472e+07
+average number of mutations in SFS: 3.72662e+06
+time elapsed (ms): 58196.1
+Output file name is sfs_out_selection_{-6.486486e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0648649
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19553e+07
+average number of mutations in SFS: 3.72967e+06
+time elapsed (ms): 58276.8
+Output file name is sfs_out_selection_{-6.476476e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0647648
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19668e+07
+average number of mutations in SFS: 3.73266e+06
+time elapsed (ms): 59293.9
+Output file name is sfs_out_selection_{-6.466466e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0646647
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19744e+07
+average number of mutations in SFS: 3.73563e+06
+time elapsed (ms): 60008.2
+reading file needknow/sample_15.txt
+Output file name is sfs_out_selection_{-6.456456e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0645646
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19856e+07
+average number of mutations in SFS: 3.73892e+06
+time elapsed (ms): 60385.6
+Output file name is sfs_out_selection_{-6.446446e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0644645
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.19972e+07
+average number of mutations in SFS: 3.7418e+06
+time elapsed (ms): 60752.2
+Output file name is sfs_out_selection_{-6.436436e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0643644
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.20066e+07
+average number of mutations in SFS: 3.74549e+06
+time elapsed (ms): 61190.1
+Output file name is sfs_out_selection_{-6.426426e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0642643
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.20149e+07
+average number of mutations in SFS: 3.74883e+06
+time elapsed (ms): 61860.6
+Output file name is sfs_out_selection_{-6.416416e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0641642
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.20239e+07
+average number of mutations in SFS: 3.75161e+06
+time elapsed (ms): 62369.4
+Output file name is sfs_out_selection_{-6.406406e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0640641
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.20364e+07
+average number of mutations in SFS: 3.75461e+06
+time elapsed (ms): 62572
+Output file name is sfs_out_selection_{-5.995996e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.05996
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.24367e+07
+average number of mutations in SFS: 3.88844e+06
+time elapsed (ms): 63441.5
+Output file name is sfs_out_selection_{-5.985986e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0598599
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.24439e+07
+average number of mutations in SFS: 3.89117e+06
+time elapsed (ms): 64646.5
+Output file name is sfs_out_selection_{-5.975976e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0597598
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.24534e+07
+average number of mutations in SFS: 3.89454e+06
+time elapsed (ms): 57923.6
+Output file name is sfs_out_selection_{-5.965966e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0596597
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.24645e+07
+average number of mutations in SFS: 3.89797e+06
+time elapsed (ms): 60061
+Output file name is sfs_out_selection_{-5.955956e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0595596
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.24765e+07
+average number of mutations in SFS: 3.90154e+06
+time elapsed (ms): 58502.9
+Output file name is sfs_out_selection_{-5.945946e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0594595
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.24851e+07
+average number of mutations in SFS: 3.90538e+06
+time elapsed (ms): 58464.2
+Output file name is sfs_out_selection_{-5.935936e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0593594
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.2494e+07
+average number of mutations in SFS: 3.90827e+06
+time elapsed (ms): 58558.5
+reading file needknow/sample_16.txt
+Output file name is sfs_out_selection_{-5.925926e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0592593
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25045e+07
+average number of mutations in SFS: 3.9115e+06
+time elapsed (ms): 58668.6
+Output file name is sfs_out_selection_{-5.915916e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0591592
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25138e+07
+average number of mutations in SFS: 3.91455e+06
+time elapsed (ms): 58691.5
+Output file name is sfs_out_selection_{-5.905906e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0590591
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25249e+07
+average number of mutations in SFS: 3.91819e+06
+time elapsed (ms): 58774.6
+Output file name is sfs_out_selection_{-5.895896e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.058959
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25346e+07
+average number of mutations in SFS: 3.92208e+06
+time elapsed (ms): 58759.5
+Output file name is sfs_out_selection_{-5.885886e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0588589
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25464e+07
+average number of mutations in SFS: 3.92471e+06
+time elapsed (ms): 58879
+Output file name is sfs_out_selection_{-5.875876e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0587588
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25561e+07
+average number of mutations in SFS: 3.92852e+06
+time elapsed (ms): 58727
+Output file name is sfs_out_selection_{-5.865866e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0586587
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25653e+07
+average number of mutations in SFS: 3.93164e+06
+time elapsed (ms): 58855.5
+Output file name is sfs_out_selection_{-5.855856e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0585586
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25736e+07
+average number of mutations in SFS: 3.93531e+06
+time elapsed (ms): 58702.7
+Output file name is sfs_out_selection_{-5.845846e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0584585
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25837e+07
+average number of mutations in SFS: 3.93846e+06
+time elapsed (ms): 58726.2
+Output file name is sfs_out_selection_{-5.835836e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0583584
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.25945e+07
+average number of mutations in SFS: 3.94159e+06
+time elapsed (ms): 58662.1
+Output file name is sfs_out_selection_{-5.825826e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0582583
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26007e+07
+average number of mutations in SFS: 3.94512e+06
+time elapsed (ms): 58744.3
+Output file name is sfs_out_selection_{-5.815816e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0581582
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26106e+07
+average number of mutations in SFS: 3.94881e+06
+time elapsed (ms): 58704.5
+Output file name is sfs_out_selection_{-5.805806e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0580581
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26226e+07
+average number of mutations in SFS: 3.95234e+06
+time elapsed (ms): 58642.6
+reading file needknow/sample_17.txt
+Output file name is sfs_out_selection_{-5.795796e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.057958
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26334e+07
+average number of mutations in SFS: 3.95541e+06
+time elapsed (ms): 58737.2
+Output file name is sfs_out_selection_{-5.785786e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0578579
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26426e+07
+average number of mutations in SFS: 3.95909e+06
+time elapsed (ms): 58641.5
+Output file name is sfs_out_selection_{-5.775776e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0577578
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26517e+07
+average number of mutations in SFS: 3.96207e+06
+time elapsed (ms): 58772.8
+Output file name is sfs_out_selection_{-5.765766e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0576577
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26624e+07
+average number of mutations in SFS: 3.96571e+06
+time elapsed (ms): 58690.8
+Output file name is sfs_out_selection_{-5.755756e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0575576
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26708e+07
+average number of mutations in SFS: 3.96897e+06
+time elapsed (ms): 58769.2
+Output file name is sfs_out_selection_{-5.745746e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0574575
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26814e+07
+average number of mutations in SFS: 3.97217e+06
+time elapsed (ms): 58694.5
+Output file name is sfs_out_selection_{-5.735736e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0573574
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.26904e+07
+average number of mutations in SFS: 3.97579e+06
+time elapsed (ms): 58706.8
+Output file name is sfs_out_selection_{-5.725726e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0572573
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27018e+07
+average number of mutations in SFS: 3.97926e+06
+time elapsed (ms): 58655.9
+Output file name is sfs_out_selection_{-5.715716e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0571572
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27115e+07
+average number of mutations in SFS: 3.98274e+06
+time elapsed (ms): 58712.8
+Output file name is sfs_out_selection_{-5.705706e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0570571
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27213e+07
+average number of mutations in SFS: 3.98648e+06
+time elapsed (ms): 58651
+Output file name is sfs_out_selection_{-5.695696e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.056957
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27313e+07
+average number of mutations in SFS: 3.98984e+06
+time elapsed (ms): 58204
+Output file name is sfs_out_selection_{-5.685686e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0568569
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.2743e+07
+average number of mutations in SFS: 3.99261e+06
+time elapsed (ms): 58239.6
+Output file name is sfs_out_selection_{-5.675676e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0567568
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27522e+07
+average number of mutations in SFS: 3.9968e+06
+time elapsed (ms): 58270.3
+reading file needknow/sample_18.txt
+Output file name is sfs_out_selection_{-5.665666e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0566567
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27606e+07
+average number of mutations in SFS: 3.99982e+06
+time elapsed (ms): 58458.4
+Output file name is sfs_out_selection_{-5.655656e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0565566
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27708e+07
+average number of mutations in SFS: 4.00255e+06
+time elapsed (ms): 58670.8
+Output file name is sfs_out_selection_{-5.645646e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0564565
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27828e+07
+average number of mutations in SFS: 4.007e+06
+time elapsed (ms): 58666.3
+Output file name is sfs_out_selection_{-5.635636e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0563564
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.27929e+07
+average number of mutations in SFS: 4.01006e+06
+time elapsed (ms): 58858.5
+Output file name is sfs_out_selection_{-5.625626e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0562563
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.2802e+07
+average number of mutations in SFS: 4.01382e+06
+time elapsed (ms): 58865.9
+Output file name is sfs_out_selection_{-5.615616e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0561562
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.28099e+07
+average number of mutations in SFS: 4.01652e+06
+time elapsed (ms): 58842.2
+Output file name is sfs_out_selection_{-5.605606e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0560561
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.28223e+07
+average number of mutations in SFS: 4.0207e+06
+time elapsed (ms): 58930.5
+Output file name is sfs_out_selection_{-1.635505e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.16355
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.32773e+07
+average number of mutations in SFS: 1.80314e+06
+time elapsed (ms): 50634.2
+Output file name is sfs_out_selection_{-1.632508e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.163251
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.32987e+07
+average number of mutations in SFS: 1.80626e+06
+time elapsed (ms): 50537.3
+Output file name is sfs_out_selection_{-1.629510e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.162951
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.33243e+07
+average number of mutations in SFS: 1.80958e+06
+time elapsed (ms): 50622.1
+Output file name is sfs_out_selection_{-1.626512e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.162651
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.33468e+07
+average number of mutations in SFS: 1.81314e+06
+time elapsed (ms): 50571.8
+Output file name is sfs_out_selection_{-1.623515e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.162352
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.33739e+07
+average number of mutations in SFS: 1.8165e+06
+time elapsed (ms): 50713.7
+Output file name is sfs_out_selection_{-1.620517e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.162052
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.33948e+07
+average number of mutations in SFS: 1.81964e+06
+time elapsed (ms): 50755.7
+reading file needknow/sample_19.txt
+Output file name is sfs_out_selection_{-1.617519e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.161752
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.34193e+07
+average number of mutations in SFS: 1.82301e+06
+time elapsed (ms): 50587.2
+Output file name is sfs_out_selection_{-1.614522e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.161452
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.34439e+07
+average number of mutations in SFS: 1.82624e+06
+time elapsed (ms): 50810
+Output file name is sfs_out_selection_{-1.611524e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.161152
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.34667e+07
+average number of mutations in SFS: 1.8296e+06
+time elapsed (ms): 50806.7
+Output file name is sfs_out_selection_{-1.608526e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.160853
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.3493e+07
+average number of mutations in SFS: 1.83303e+06
+time elapsed (ms): 50783.1
+Output file name is sfs_out_selection_{-1.605529e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.160553
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.35151e+07
+average number of mutations in SFS: 1.83643e+06
+time elapsed (ms): 50909.3
+Output file name is sfs_out_selection_{-1.602531e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.160253
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.354e+07
+average number of mutations in SFS: 1.8399e+06
+time elapsed (ms): 50771.7
+Output file name is sfs_out_selection_{-1.599533e-01}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.159953
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.35644e+07
+average number of mutations in SFS: 1.84309e+06
+time elapsed (ms): 50905.9
+Output file name is sfs_out_selection_{-8.618619e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0861862
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.99329e+07
+average number of mutations in SFS: 3.12432e+06
+time elapsed (ms): 55933.3
+Output file name is sfs_out_selection_{-8.608609e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0860861
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.99381e+07
+average number of mutations in SFS: 3.12646e+06
+time elapsed (ms): 55775.2
+Output file name is sfs_out_selection_{-8.598599e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.085986
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.99491e+07
+average number of mutations in SFS: 3.12925e+06
+time elapsed (ms): 55833.6
+Output file name is sfs_out_selection_{-8.588589e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0858859
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.99599e+07
+average number of mutations in SFS: 3.13156e+06
+time elapsed (ms): 55821.5
+Output file name is sfs_out_selection_{-8.578579e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0857858
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.99689e+07
+average number of mutations in SFS: 3.13459e+06
+time elapsed (ms): 56175.3
+Output file name is sfs_out_selection_{-8.568569e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0856857
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 6.99776e+07
+average number of mutations in SFS: 3.13683e+06
+time elapsed (ms): 55975.4
+reading file needknow/sample_1.txt
+Output file name is sfs_out_selection_{-4.264264e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0426426
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.41664e+07
+average number of mutations in SFS: 4.51337e+06
+time elapsed (ms): 60112.7
+Output file name is sfs_out_selection_{-4.254254e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0425425
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.41791e+07
+average number of mutations in SFS: 4.51761e+06
+time elapsed (ms): 60067.1
+Output file name is sfs_out_selection_{-4.244244e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0424424
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.41877e+07
+average number of mutations in SFS: 4.52203e+06
+time elapsed (ms): 60055.6
+Output file name is sfs_out_selection_{-4.234234e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0423423
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.41968e+07
+average number of mutations in SFS: 4.52524e+06
+time elapsed (ms): 59964.8
+Output file name is sfs_out_selection_{-4.224224e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0422422
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42082e+07
+average number of mutations in SFS: 4.52961e+06
+time elapsed (ms): 60011
+Output file name is sfs_out_selection_{-4.214214e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0421421
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42199e+07
+average number of mutations in SFS: 4.53409e+06
+time elapsed (ms): 60065.9
+Output file name is sfs_out_selection_{-4.204204e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.042042
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42288e+07
+average number of mutations in SFS: 4.53738e+06
+time elapsed (ms): 60129
+Output file name is sfs_out_selection_{-4.194194e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0419419
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42397e+07
+average number of mutations in SFS: 4.5416e+06
+time elapsed (ms): 60041.2
+Output file name is sfs_out_selection_{-4.184184e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0418418
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42498e+07
+average number of mutations in SFS: 4.54558e+06
+time elapsed (ms): 60187.8
+Output file name is sfs_out_selection_{-4.174174e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0417417
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42592e+07
+average number of mutations in SFS: 4.54972e+06
+time elapsed (ms): 60077.4
+Output file name is sfs_out_selection_{-4.164164e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0416416
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42681e+07
+average number of mutations in SFS: 4.55345e+06
+time elapsed (ms): 60142.3
+Output file name is sfs_out_selection_{-4.154154e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0415415
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.42806e+07
+average number of mutations in SFS: 4.55757e+06
+time elapsed (ms): 60122.6
+Output file name is sfs_out_selection_{-4.144144e-02}.txt
+Already negative selection
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0414414
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+Finished all iterations of simulation
+
+number of sites in simulation: 133000000
+compact interval: 5
+average number of mutations in simulation: 7.4291e+07
+average number of mutations in SFS: 4.5614e+06
+time elapsed (ms): 60071.6

@@ -114,8 +114,9 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
 
     GO_Fish::allele_trajectories b;
     b.sim_input_constants.num_populations = 1; // number of populations
-    b.sim_input_constants.num_generations = 60000;
-    b.sim_input_constants.num_sites = 36.0f * pow(10.f, 6); // Should be 36 Megabase pairs
+    b.sim_input_constants.num_generations = 55950;
+    //b.sim_input_constants.num_sites = 36.0f * pow(10.f, 6); // Should be 36 Megabase pairs
+    b.sim_input_constants.num_sites = 133.0f * pow(10.f, 6); // Number of base pairs in chromosome 10
     b.sim_input_constants.compact_interval = 5;
     // Mutation and dominance parameters TODO Change dominance paramater to that of stabalizing selection
 
@@ -123,8 +124,9 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     Sim_Model::F_mu_h_constant outbred(0.f);     // inbreeding (outbred)
 
     // Sim_Model::F_mu_h_constant mutation((float) mut_rate / (b.num_sites())); 	//per-site mutation rate 10^-9
-    Sim_Model::F_mu_h_constant mutation(9.6111f * pow(10.f, -9)); // per-site mutation rate -- testing -- need to get from command line
+    //Sim_Model::F_mu_h_constant mutation(9.6111f * pow(10.f, -9)); // per-site mutation rate -- testing -- need to get from command line
 	//Sim_Model::F_mu_h_constant mutation(7.1111f * pow(10.f, -10)); // per-site mutation rate for the loss of function mutations
+    Sim_Model::F_mu_h_constant mutation(1.24f * pow(10.f, -8)); // genome-wide mutation rate https://www.biorxiv.org/content/10.1101/2022.07.11.499645v1.full.pdf
 
     // Demographic model
     // needs to be inverted as specified above
@@ -169,7 +171,7 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
     pop_history.push_back(13292);
     pop_history.push_back(14522);
     pop_history.push_back(613285);
-    pop_history.push_back(1000000); // final size is 1,000,000
+    pop_history.push_back(5000000); // final size is 5,000,000
 
     //for (int i = 0; i < pop_history.size(); i++)
     //{
@@ -273,7 +275,7 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
 
     // SFS parameters
     int sample_size = num_samples; // number of samples in SFS
-    const int num_iter = 5;              // number of iterations
+    const int num_iter = 2;              // number of iterations
     Spectrum::SFS my_spectra;
 
     cudaEvent_t start, stop; // CUDA timing functions
@@ -295,8 +297,8 @@ void run_validation_test(const float sel_coef, const int num_samples, const std:
             cudaEventRecord(start, 0);
         } // use 2nd half of the simulations to time simulation runs + SFS creation
 
-        b.sim_input_constants.seed1 = 0xbeeff00d + 2 * j; // random number seeds
-        b.sim_input_constants.seed2 = 0xdecafbad - 2 * j;
+        b.sim_input_constants.seed1 = 0xbeeff00d + 2 * (j+3); // random number seeds
+        b.sim_input_constants.seed2 = 0xdecafbad - 2 * (j+6);
         GO_Fish::run_sim(b, mutation, epoch_36, mig_model, weak_del, outbred, codominant, Sim_Model::bool_off(), Sim_Model::bool_off());
         Spectrum::site_frequency_spectrum(my_spectra, b, 0, 0, sample_size);
 
@@ -350,12 +352,12 @@ int main(int argc, char **argv)
 {
     // this is a point selection coefficient the selection coefficient will remain the same for the population, this is the un-scaled selection coefficient
     float PointSel = -.005;
-    int num_samples = 1000;
+    int num_samples = 1000; // Number of samples in gnomad: 111710
     std::string file_name = "out_file.txt";
 
     if (argc != 4) // 3 Total parameters, [executable, unscaled selection coefficient, num_samples, file_seed]
     {
-        fprintf(stderr, "Error: The number of arguments given in the command line is not correct. In this version you need to pass in a selection cofficient and unscaled mutation rate, format is: ./GOFish scaled_mutation_rate unscaled_selection coefficient num_samples \n");
+        fprintf(stderr, "Warning: The number of arguments given in the command line is not correct. In this version you need to pass in a selection cofficient, sample_size, and output_file_name, format is: ./GOFish scaled_mutation_rate unscaled_selection coefficient num_samples output_filename\n");
         // exit(8);
         std::cout << "Using default values" << std::endl;
     }
@@ -367,7 +369,7 @@ int main(int argc, char **argv)
 
     }
 
-    std::cout << "Currently we are using a scaled Mutation Rate pf .3426: " << std::endl;
+    std::cout << "Currently we are using the genome wide mutation 1.5e-8: " << std::endl;
     std::cout << "Unscaled Point Selection: " << PointSel << std::endl;
     std::cout << "Number of samples to generate SFS: " << num_samples << std::endl;
 

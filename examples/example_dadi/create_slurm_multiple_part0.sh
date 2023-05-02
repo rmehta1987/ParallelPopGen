@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=part0
+#SBATCH --job-name=part1
 #SBATCH --account=pi-jjberg
 #SBATCH --partition=gpu
 #SBATCH --time=12:00:00
@@ -13,4 +13,4 @@
 
 
 module load cuda
-bash run_lots_of_sims_per_file_part0_.sh
+bash run_sims_part1.sh needknow

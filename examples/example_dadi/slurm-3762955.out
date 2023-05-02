@@ -1,0 +1,16 @@
+run_lots_of_sims_per_file_part0_.sh: line 8: nameofhost: command not found
+run_lots_of_sims_per_file_part0_.sh: line 9: [[: command not found
+on midway3 cluster
+/software/cuda-11.7-el8-x86_64/bin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/python-anaconda-2020.11-el8-x86_64/condabin:/software/python-anaconda-2020.11-el8-x86_64/bin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/bin:/software/slurm-current-el8-x86_64/bin:/software/modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/thinlinc/bin
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: -0.0220081
+Number of samples to generate SFS: 111710
+Running simulations
+Creating population histories 
+Creating inflection points
+Pop_history and inflection point size, should be the same: 38 38
+Creating the demographic history of epochs
+Starting final demography epoch: 5000000 inflection point: 55940
+Finished creating demographic events
+Starting iteration 1 of simulation
+slurmstepd: error: *** JOB 3762955 ON midway3-0282 CANCELLED AT 2023-04-24T13:10:11 ***

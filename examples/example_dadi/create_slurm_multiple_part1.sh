@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=3less
+#SBATCH --job-name=part2
 #SBATCH --account=pi-jjberg
 #SBATCH --partition=gpu
 #SBATCH --time=16:00:00
@@ -12,4 +12,4 @@
 #SBATCH --cpus-per-task=2   # set this to the desired number of threads
 
 module load cuda
-bash run_lots_of_sims_per_file_part1_.sh
+bash run_sims_part2.sh needknow
