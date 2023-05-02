@@ -1,4 +1,4 @@
-# Description of Mac/Linux/Unix Makefile for example_robertson. 
+# Description of Mac/Linux/Unix Makefile for example_dadi. 
 #
 #############################
 # build_path := Where to build program and put executable (note: folder must already exist)
@@ -36,20 +36,20 @@
 build_path = ../bin
 api_path_source = ../../3P/_internal
 api_path_include = ../../3P
-EXEC_FILE = GOFish
+EXEC_FILE = GOFish_uk_roberson
 
 NVCC = nvcc -std=c++14
-CFLAGS = -O3 --use_fast_math --expt-relaxed-constexpr -I $(api_path_include)/ -dc
-CODE = --generate-code arch=compute_30,code=sm_30 --generate-code arch=compute_61,code=sm_61 --generate-code arch=compute_30,code=compute_30 --generate-code arch=compute_50,code=compute_50
-
-object_names = run.o spectrum.o
+CFLAGS = -O3 --expt-relaxed-constexpr -I $(api_path_include)/ -dc
+#CODE = --generate-code arch=compute_75,code=sm_75 --generate-code arch=compute_61,code=sm_61 
+CODE = --generate-code arch=compute_61,code=[sm_61,compute_61] 
+object_names = run_uk_roberson.o spectrum_uk_roberson.o
 objects = $(addprefix $(build_path)/,$(object_names))
 
 all:$(build_path)/$(EXEC_FILE)
 
 ##### OBJECT DEPENDENCIES #####
-$(build_path)/run.o: run.cu $(api_path_source)/rng.cuh $(api_path_source)/ppp_cuda.cuh $(api_path_source)/ppp_types.hpp $(api_path_source)/go_fish_impl.cuh $(api_path_include)/go_fish_data_struct.h $(api_path_include)/go_fish.cuh $(api_path_include)/spectrum.h
-$(build_path)/spectrum.o: $(api_path_source)/spectrum.cu $(api_path_include)/spectrum.h $(api_path_source)/ppp_cuda.cuh $(api_path_source)/ppp_types.hpp $(api_path_include)/go_fish_data_struct.h
+$(build_path)/run_uk_roberson.o: run.cu $(api_path_source)/rng.cuh $(api_path_source)/ppp_cuda.cuh $(api_path_source)/ppp_types.hpp $(api_path_source)/go_fish_impl.cuh $(api_path_include)/go_fish_data_struct.h $(api_path_include)/go_fish.cuh $(api_path_include)/spectrum.h
+$(build_path)/spectrum_uk_roberson.o: $(api_path_source)/spectrum.cu $(api_path_include)/spectrum.h $(api_path_source)/ppp_cuda.cuh $(api_path_source)/ppp_types.hpp $(api_path_include)/go_fish_data_struct.h
 ##### END OBJECT DEPENDENCIES #####
 
 $(objects):

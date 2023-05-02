@@ -101,7 +101,7 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
 
     // Complex UK Biobank Demographic Histroy
     //  I believe it goes - generation pop size_1, generation time_1 then eneration pop size_2, generation time_2
-    /*
+    
     auto demography_model = Sim_Model::make_piecewise_evolution_model(cp(14448), 4545,  cp(14068), 8483, 
     cp(14068), 11956, 
     cp(14464), 15063,    
@@ -138,8 +138,8 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
     cp(14522), 54361,
     cp(613285), 55890,
     cp(5000000), 55940); // last one is the additional 50 generations 
-    */
-
+    
+/* 
     typedef std::vector<Sim_Model::constant_parameter> dem_const;                                                        // vector of all the population sizes
     typedef Sim_Model::demography_piecewise<Sim_Model::constant_parameter, Sim_Model::constant_parameter> epoch_0_to_1; // initiali expansion
     typedef Sim_Model::demography_piecewise<epoch_0_to_1, Sim_Model::constant_parameter> epoch_1_to_2;
@@ -316,10 +316,10 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
     //std::cout << "Starting final demography epoch: " << pop_history[37] << " inflection point: " << inflection_points[37] << std::endl; 
 
     epoch_36_to_37 epoch_36(epoch_35, pop_history[37], inflection_points[37]); // final population size of one million
-    std::cout << "Finished creating demographic events" << std::endl;
+    std::cout << "Finished creating demographic events" << std::endl; */
     
 
-	return GO_Fish::run_sim(input, mutation_rate , epoch_36, migration , selection, inbreeding, dominance, Sampling::off());
+	return GO_Fish::run_sim(input, mutation_rate , demography_model, migration , selection, inbreeding, dominance, Sampling::off());
 }
 
 void print_sfs(int num_iterations, int num_samples, float num_sites, float mu, float sel_coef, std::string file_name){
