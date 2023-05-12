@@ -168,6 +168,8 @@ __global__ void migration_selection_drift(uint * mutations_freq, const uint * co
 				auto Nchrom_e = eff_chrom_f(N,F);
 				auto freq = i_mig/Nchrom_e;
 				auto s = fmaxf(sel_coeff(gen,population,freq),-1.f); //ensures selection is never lower than -1
+				auto s2 = sel_coeff(gen,population,freq);
+				//printf("******sel_coeff %f", s2 );
 				auto h = dominance(gen,population,freq);
 				auto i_mig_sel = (Nchrom_e*(s*i_mig*i_mig+Nchrom_e*i_mig+(F+h-h*F)*s*i_mig*(Nchrom_e-i_mig)))/(s*i_mig*i_mig+(F+2*h-2*h*F)*s*i_mig*(Nchrom_e-i_mig)+Nchrom_e*Nchrom_e); //expected allele count after selection and migration
 				if(i_mig_sel != 0 && i_mig == 0 && Nchrom_e > 0){ printf("%f\t%f\t%f\n",i_mig_sel,i_mig,Nchrom_e); }

@@ -54,18 +54,6 @@ struct piecewise_directional_migration{
 	__host__ __device__  bool operator()(const unsigned int gen, const unsigned int pop_from, const unsigned int pop_to) const { return (pop_FROM == pop_from && pop_TO == pop_to && generation <= gen); }
 };
 
-///functor: demography function changes from \p d1 to \p d2 at generation \p inflection_point
-template <typename Functor_d1, typename Functor_d2>
-struct demography_piecewise
-{
-	int inflection_point; /**<\brief generation in which the Demographic function switches from `d1` to `d2` */ /**<\t*/
-	int generation_shift; //!<\copydoc Sim_Model::selection_sine_wave::generation_shift
-	Functor_d1 d1; /**<\brief first demographic function */ /**<\t*/
-	Functor_d2 d2; /**<\brief second demographic function */ /**<\t*/
-	inline demography_piecewise(); /**<\brief default constructor */
-	inline demography_piecewise(Functor_d1 d1_in, Functor_d2 d2_in, int inflection_point, int generation_shift = 0); /**<\brief constructor */ /**<\t*/
-	__host__ __device__ __forceinline__ int operator()(const int population, const int generation) const; //!<\copybrief Sim_Model::demography_constant::operator()(const int population, const int generation) const
-};
 
 template <typename Pred_function, typename Default_evo_function, typename... Evol_functions>
 struct list_of_functions{
@@ -171,21 +159,6 @@ __host__ __device__ __forceinline__ float constant_parameter::operator()(Args...
    Sim_Model::migration_piecewise<split_pop0_gen1,mig_const_equal> migration_model(m_generation_1,m0,2); //no further migration between groups \endcode
    The modularity of these functor templates allow parameter models to be extended to any number of populations and piecewise parameter functions (including user defined functions).
  **/
-/**`inflection_point = 0` \n `generation_shift = 0` \n
-Function `d1` assigned default constructor of `Functor_d1`\n
-Function `d2` assigned default constructor of `Functor_d2`*/
-template <typename Functor_d1, typename Functor_d2>
-inline demography_piecewise<Functor_d1, Functor_d2>::demography_piecewise() : inflection_point(0), generation_shift(0) { d1 = Functor_d1(); d2 = Functor_d2(); }
-/** \param generation_shift (optional input) default `0` */
-template <typename Functor_d1, typename Functor_d2>
-inline demography_piecewise<Functor_d1, Functor_d2>::demography_piecewise(Functor_d1 d1_in, Functor_d2 d2_in, int inflection_point, int generation_shift /* = 0*/) : inflection_point(inflection_point), generation_shift(generation_shift) { d1 = d1_in; d2 = d2_in; }
-/** `if(generation >= inflection_point+generation_shift) N = d2(population, generation-generation_shift)`\n
-	`else N = d1(population, generation-generation_shift)` */
-template <typename Functor_d1, typename Functor_d2>
-__host__ __device__  __forceinline__ int demography_piecewise<Functor_d1, Functor_d2>::operator()(const int population, const int generation) const{
-	if(generation >= inflection_point+generation_shift){ return d2(population, generation-generation_shift) ; }
-	return d1(population, generation-generation_shift);
-};
 /* ----- end piecewise demography model ----- */
 /* ----- end of demography models ----- */
 
@@ -278,17 +251,56 @@ linear_frequency_h_s make_stabilizing_selection_model(float effect_size, float v
 inline hyperbola_frequency_h_s::hyperbola_frequency_h_s() : A(0), B(-1), C(0.5) {}
 inline hyperbola_frequency_h_s::hyperbola_frequency_h_s(float A, float B, float C): A(A), B(B), C(C) {}
 inline hyperbola_frequency_h_s::hyperbola_frequency_h_s(linear_frequency_h_s numerator, linear_frequency_h_s denominator){
-	A = numerator.intercept/denominator.slope - denominator.intercept*numerator.slope/pow(denominator.slope,2.f);
-	B = -1.f*denominator.intercept/denominator.slope;
-	C = numerator.slope/denominator.slope;
+	//A = numerator.intercept/denominator.slope - denominator.intercept*numerator.slope/pow(denominator.slope,2.f);
+	//B = -1.f*denominator.intercept/denominator.slope;
+	//C = numerator.slope/denominator.slope;
+	A = numerator.slope/denominator.slope;
+	B = ((numerator.intercept*denominator.slope)-(numerator.slope*denominator.intercept))/pow(denominator.slope,2.f);
+	C = denominator.intercept/denominator.slope;
 }
 __host__ __device__ __forceinline__ float hyperbola_frequency_h_s::operator()(const unsigned int generation, const unsigned int population, const float freq) const {
-	if(freq == B) return 0.f; //doesn't matter here, normally used for dominance => when freq = B, selection = 0 anyway
-	return A/(freq-B) + C;
+	if(freq == B)
+	{
+		 return 0.f; //doesn't matter here, normally used for dominance => when freq = B, selection = 0 anyway
+	}
+	if (freq == 0.5)
+	{
+		return 0.f; // divide by 0, but as above doesn't matter because selection = 0 anyway
+	}
+	//float temp;
+	//temp = A + B/(freq+C);
+	//printf("hyperbolic frequency: %f\n",temp); 
+	//printf("A: %f\n",A); 
+	//printf("B: %f\n",B); 
+	//printf("C: %f\n",C); 
+	return A + B/(freq+C);
 }
 /* ----- end hyperbola frequency dependent dominance and selection model ----- */
 
 hyperbola_frequency_h_s make_stabilizing_dominance_model(){ return hyperbola_frequency_h_s(1.f/8.f, 1.f/2.f, 1.f/2.f); }
+
+/* Possibly corrected frequency dependant dominance and selection model*/
+hyperbola_frequency_h_s make_stabilizing_cselection_model(float effect_size, float variance)
+
+{ 
+	if (effect_size == 0.0)
+	{
+		return hyperbola_frequency_h_s(0.0, 0.0, 0.0);
+	}
+	//float e_s = effect_size*effect_size/(2*variance);
+	float e_s = effect_size;
+	linear_frequency_h_s s_numerator(-1*e_s, 2*e_s, true); // 2*beta*q - beta
+	linear_frequency_h_s s_denominator(e_s/4.0f + 1, -1*e_s, true); // -beta*q+beta/4 + 1
+
+	return hyperbola_frequency_h_s(s_numerator, s_denominator);
+}
+hyperbola_frequency_h_s make_stabilizing_cdominance_model()
+{ 
+	linear_frequency_h_s h_numerator(-1.0f, 4.0f, true); // -1+4q
+	linear_frequency_h_s h_denominator(-4.0f, 8.0f, true); // -4+8q
+	return hyperbola_frequency_h_s(h_numerator, h_denominator);
+}
+
 
 template <typename Default_fun, typename... List>
 auto make_population_specific_evolution_model(Default_fun defaultFun, List... list){ return details::make_master_helper<details::population_specific>(defaultFun, list...); }
@@ -315,7 +327,9 @@ stabilizing_mse_integrand::stabilizing_mse_integrand():constant(0) {}
 template <typename Functor_demography, typename Functor_selection, typename Functor_inbreeding, typename Functor_dominance>
 stabilizing_mse_integrand::stabilizing_mse_integrand(const Functor_demography dem, const Functor_selection sel_coeff, const Functor_inbreeding f_inbred, const Functor_dominance dominance, unsigned int gen, unsigned int pop) {
 	float N(round(dem(gen,pop))), F(f_inbred(gen,pop)), e_s((max(sel_coeff(gen,pop,1),-1.f) - max(sel_coeff(gen,pop,0),-1.f))/2.f);
-
+	float s2(sel_coeff(gen,pop,1));
+	//printf("selectoin: %f\n",e_s); 
+	//printf("before max selectoin: %f\n",s2); 
 	constant = -4*N*e_s*((1-F)/4+F)/(1+F);
 }
 __host__ __device__ double stabilizing_mse_integrand::operator()(double i) const{ return exp(constant*(i*i-i)); } //exponent term in integrand is negative inverse, //works for either haploid or diploid, N should be number of individuals, for haploid, F = 1

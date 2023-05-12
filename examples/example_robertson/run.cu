@@ -57,20 +57,20 @@ auto run_mse_robertson_model(float sel_coef, float variance, float N, float num_
     cp(5791), 53004,
     cp(4670), 53431,
     cp(3841), 53824,
-    //cp(3372), 54188,
-    //cp(3287), 54527,
-    //cp(3359), 54688,
-    //cp(3570), 54844,
-    //cp(4713), 55142,
-    //cp(5661), 55284,
-    //cp(7540), 55423,
-    //cp(11375), 55557,
-    //cp(14310), 55688,
-    //cp(13292), 55816,
+    cp(3372), 54188,
+    cp(3287), 54527,
+    cp(3359), 54688,
+    cp(3570), 54844,
+    cp(4713), 55142,
+    cp(5661), 55284,
+    cp(7540), 55423,
+    cp(11375), 55557,
+    cp(14310), 55688,
+    cp(13292), 55816,
     cp(14522), 54361,
     cp(613285), 55890,
-    cp(5000000), 55940); // last one is the additional 50 generations 
-	return GO_Fish::run_sim(input, mutation_rate , demography_model, migration, Sim_Model::make_stabilizing_selection_model(sel_coef,variance), inbreeding, Sim_Model::make_stabilizing_dominance_model(), Sampling::off(), GO_Fish::allele_trajectories(), Sim_Model::stabilizing_mse_integrand());
+    cp(1000000), 55940); // last one is the additional 50 generations 
+	return GO_Fish::run_sim(input, mutation_rate , demography_model, migration, Sim_Model::make_stabilizing_cselection_model(sel_coef,variance), inbreeding, Sim_Model::make_stabilizing_cdominance_model(), Sampling::off(), GO_Fish::allele_trajectories(), Sim_Model::stabilizing_mse_integrand());
 }
 
 void print_mse_robertson_sfs(int sample_size, float effect_size, float variance, float N, float num_sites, float mu){												
@@ -86,6 +86,9 @@ void print_mse_robertson_sfs(int sample_size, float effect_size, float variance,
 	std::chrono::duration<double,std::milli> elapsed_ms = end - start;
 	std::cout<<"\n"<< variance << ",";
 	for(int i = 1; i < sample_size; i++){ std::cout<< my_spectra_mse.frequency_spectrum[i]/my_spectra_mse.num_mutations << ","; }
+    std::cout << std::endl;
+    std::cout << "Elapsed time: " << 2*elapsed_ms.count() << std::endl; 
+
 }
 
 auto run_mse_model(float S, float N, float num_sites, float mu, unsigned int seed1, unsigned int seed2){
@@ -120,7 +123,7 @@ int main(int argc, char **argv) {
 	/*for(const auto & vs: variance){
 		print_mse_robertson_sfs(51, vs, 0.5, 1*pow(10.f,4), 100*pow(10.f,7), 10*pow(10.f,-9)); 
 	}*/
-	print_mse_robertson_sfs(51, -.005, 0.5, 1*pow(10.f,4), 100*pow(10.f,7), 10*pow(10.f,-9)); 
+	print_mse_robertson_sfs(51, .005, 0.5, 1*pow(10.f,4), 133*pow(10.f,6), 1.5*pow(10.f,-8)); 
 	/*
 	std::vector<float> selection = {25, 0, -10, -25, -85, -200};
 	for(const auto & s: selection){
