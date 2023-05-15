@@ -725,7 +725,7 @@ __host__ inline allele_trajectories run_sim_impl(sim_constants & sim_input_const
 	else{ init_blank_prev_run(data, prev_sim, mu_rate, demography, mig_prop, f_inbred, take_sample, streams); } //initialize from results of previous simulation run or to blank
 	allele_trajectories all_results(sim_input_constants,data.sample_generation.size()); //initialize simulation output
 	//----- end -----
-	std::cout<<data.mutations_index<<"\t"<<data.generation<<std::endl;
+	//std::cout<< "At line 728 in go_fish_impl: data mutations index: " << data.mutations_index<<" Data generation time: \t"<<data.generation<<std::endl;
 	//----- take initial time sample of allele trajectories? -----
 	if(data.sample_generation[data.sample_index] == data.generation){ store_time_sample(all_results, data, demography, f_inbred, streams); }
 	//----- end -----
@@ -736,11 +736,11 @@ __host__ inline allele_trajectories run_sim_impl(sim_constants & sim_input_const
 		generate_new_mutation_IDs(data, streams);
 		migration_selection_drift(data, demography, mig_prop, sel_coeff, f_inbred, dominance, streams);
 		data.generation = data.next_event_generation; //if advancing only 1 generation, these two may already be equal to each other
-		std::cout<<data.mutations_index<<"\t"<<data.generation<<std::endl;
+		//std::cout<< "At line 739 in go_fish_impl: data mutations index: " << data.mutations_index<<" Data generation time: \t"<<data.generation<<std::endl;
 		if(sim_input_constants.compact_type != compact_scheme::compact_off){ compact(data, demography, f_inbred, streams); }
 		else{ std::swap(data.d_prev_freq,data.d_mutations_freq); set_next_event_generation(data); }
 		if(data.sample_generation[data.sample_index] == data.generation){ store_time_sample(all_results, data, demography, f_inbred, streams); }
-		std::cout<<data.mutations_index<<"\t"<<data.generation<<std::endl;
+		//std::cout<< "At line 743 in go_fish_impl: data mutations index: " << data.mutations_index<<" Data generation time: \t"<<data.generation<<std::endl;
 	}
 	//----- end -----
 

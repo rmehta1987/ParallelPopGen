@@ -32,7 +32,7 @@ auto run_mse_robertson_model(float num_sites, float sel_coef, float mu, unsigned
 	input.compact_interval = compact_interval;									//compact interval (in general: decrease compact interval for larger number of sites)
 
     // Complex UK Biobank Demographic Histroy
-    //  I believe it goes - generation pop size_1, generation time_1 then eneration pop size_2, generation time_2
+    //  I believe it goes - generation pop size_1, generation time_1 then generation pop size_2, generation time of change to pop_size 2
     
     auto demography_model = Sim_Model::make_piecewise_evolution_model(cp(14448), 4545,  
     cp(14068), 11956, 

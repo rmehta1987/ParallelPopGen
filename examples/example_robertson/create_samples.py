@@ -1,7 +1,7 @@
 import numpy as np
 
 # From 0 to .0001
-a = np.linspace(0,.0001,200)
+a = np.linspace(0,.0001,300)
 
 # From .0001 to .001
 b = np.linspace(0.0001,.001,200)
