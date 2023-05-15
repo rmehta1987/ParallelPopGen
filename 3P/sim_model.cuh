@@ -40,21 +40,6 @@ struct constant_parameter
 	__host__ __device__ __forceinline__ float operator()(Args ...) const; /**<\brief operator, returns parameter, for a given `population, generation, ...` */ /**<\t*/
 };
 
-///functor: demography function changes from \p d1 to \p d2 at generation \p inflection_point
-template <typename Functor_d1, typename Functor_d2>
-struct demography_piecewise
-{
-	int inflection_point; /**<\brief generation in which the Demographic function switches from `d1` to `d2` */ /**<\t*/
-	int generation_shift; //!<\copydoc Sim_Model::selection_sine_wave::generation_shift
-	Functor_d1 d1; /**<\brief first demographic function */ /**<\t*/
-	Functor_d2 d2; /**<\brief second demographic function */ /**<\t*/
-	inline demography_piecewise(); /**<\brief default constructor */
-	inline demography_piecewise(Functor_d1 d1_in, Functor_d2 d2_in, int inflection_point, int generation_shift = 0); /**<\brief constructor */ /**<\t*/
-	__host__ __device__ __forceinline__ int operator()(const int population, const int generation) const; //!<\copybrief Sim_Model::demography_constant::operator()(const int population, const int generation) const
-};
-
-
-
 ///functor: scales parameter \p p so the effective parameter (Ne_chrome*p) is constant across populations and over time
 template <typename Functor_demography, typename Functor_inbreeding>
 struct constant_effective_parameter
@@ -149,15 +134,24 @@ struct hyperbola_frequency_h_s
 	float A; /**<\brief y = A/(freq-B) + C */ /**<\t*/
 	float B; /**<\copybrief Sim_Model::hyperbola_frequency_dependent_h_s::A */ /**<\t*/
 	float C; /**<\copybrief Sim_Model::hyperbola_frequency_dependent_h_s::A */ /**<\t*/
+	float es; /**<\copybrief Sim_Model::hyperbola_frequency_dependent_h_s:es */ /**<\t*/ // initial selection coefficient
 	
 	inline hyperbola_frequency_h_s(); /**<\brief default constructor */ /**<co-dominant `A = 0, B = -1, C = 0.5`*/
 	inline hyperbola_frequency_h_s(float A, float B, float C); /**<\brief constructor */ /**<\t*/
 	inline hyperbola_frequency_h_s(linear_frequency_h_s numerator, linear_frequency_h_s denominator); /**<\brief constructor */ /**<\t*/
+	inline hyperbola_frequency_h_s(linear_frequency_h_s numerator, linear_frequency_h_s denominator, float es); /**<\brief constructor */ /**<\t*/
 	__host__ __device__ __forceinline__ float operator()(const unsigned int generation, const unsigned int population, const float freq) const; //!<\copybrief template<typename... Args> Sim_Model::constant_parameter::operator()(Args ...) const
 };
 
 /**\brief function: returns a functor modeling dominance as in Robertson, 1955: a hyperbola dependent on allele frequency with `A` = 1/8, `B` = 1/2, and `C` = 1/2 */
 hyperbola_frequency_h_s make_stabilizing_dominance_model();
+
+/**\brief function: returns a functor modeling selection as in Robertson, but depends on frequency */
+hyperbola_frequency_h_s make_stabilizing_cselection_model(float effect_size, float variance);
+
+/**\brief function: returns a functor modeling dominance as in Robertson, but depends on frequency */
+hyperbola_frequency_h_s make_stabilizing_cdominance_model();
+
 
 template <typename Default_fun, typename... List>
 auto make_population_specific_evolution_model(Default_fun defaultFun, List... list);

@@ -102,7 +102,7 @@ auto run_model(float num_sites, float mu, float sel_coef, unsigned int seed1, un
     // Complex UK Biobank Demographic Histroy
     //  I believe it goes - generation pop size_1, generation time_1 then eneration pop size_2, generation time_2
     
-    auto demography_model = Sim_Model::make_piecewise_evolution_model(cp(14448), 4545,  cp(14068), 8483, 
+    auto demography_model = Sim_Model::make_piecewise_evolution_model(cp(14448), 4545,  
     cp(14068), 11956, 
     cp(14464), 15063,    
     cp(15208), 20439, 

@@ -248,7 +248,7 @@ linear_frequency_h_s make_stabilizing_selection_model(float effect_size, float v
 }
 
 /* ----- hyperbola frequency dependent dominance and selection model ----- */
-inline hyperbola_frequency_h_s::hyperbola_frequency_h_s() : A(0), B(-1), C(0.5) {}
+inline hyperbola_frequency_h_s::hyperbola_frequency_h_s() : A(0), B(-1), C(0.5), es(0.0) {}
 inline hyperbola_frequency_h_s::hyperbola_frequency_h_s(float A, float B, float C): A(A), B(B), C(C) {}
 inline hyperbola_frequency_h_s::hyperbola_frequency_h_s(linear_frequency_h_s numerator, linear_frequency_h_s denominator){
 	//A = numerator.intercept/denominator.slope - denominator.intercept*numerator.slope/pow(denominator.slope,2.f);
@@ -257,7 +257,19 @@ inline hyperbola_frequency_h_s::hyperbola_frequency_h_s(linear_frequency_h_s num
 	A = numerator.slope/denominator.slope;
 	B = ((numerator.intercept*denominator.slope)-(numerator.slope*denominator.intercept))/pow(denominator.slope,2.f);
 	C = denominator.intercept/denominator.slope;
+	es = 0.25; // for when q = 0;
 }
+
+inline hyperbola_frequency_h_s::hyperbola_frequency_h_s(linear_frequency_h_s numerator, linear_frequency_h_s denominator, float beta){
+	//A = numerator.intercept/denominator.slope - denominator.intercept*numerator.slope/pow(denominator.slope,2.f);
+	//B = -1.f*denominator.intercept/denominator.slope;
+	//C = numerator.slope/denominator.slope;
+	A = numerator.slope/denominator.slope;
+	B = ((numerator.intercept*denominator.slope)-(numerator.slope*denominator.intercept))/pow(denominator.slope,2.f);
+	C = denominator.intercept/denominator.slope;
+	es = beta; // for when q = 0;
+}
+
 __host__ __device__ __forceinline__ float hyperbola_frequency_h_s::operator()(const unsigned int generation, const unsigned int population, const float freq) const {
 	if(freq == B)
 	{
@@ -266,6 +278,10 @@ __host__ __device__ __forceinline__ float hyperbola_frequency_h_s::operator()(co
 	if (freq == 0.5)
 	{
 		return 0.f; // divide by 0, but as above doesn't matter because selection = 0 anyway
+	}
+	if (freq == 0.f)
+	{
+		return es;
 	}
 	//float temp;
 	//temp = A + B/(freq+C);
@@ -292,7 +308,7 @@ hyperbola_frequency_h_s make_stabilizing_cselection_model(float effect_size, flo
 	linear_frequency_h_s s_numerator(-1*e_s, 2*e_s, true); // 2*beta*q - beta
 	linear_frequency_h_s s_denominator(e_s/4.0f + 1, -1*e_s, true); // -beta*q+beta/4 + 1
 
-	return hyperbola_frequency_h_s(s_numerator, s_denominator);
+	return hyperbola_frequency_h_s(s_numerator, s_denominator, e_s);
 }
 hyperbola_frequency_h_s make_stabilizing_cdominance_model()
 { 
@@ -326,11 +342,12 @@ __host__ __device__ bool standard_mse_integrand::neutral() const{ return s==0; }
 stabilizing_mse_integrand::stabilizing_mse_integrand():constant(0) {}
 template <typename Functor_demography, typename Functor_selection, typename Functor_inbreeding, typename Functor_dominance>
 stabilizing_mse_integrand::stabilizing_mse_integrand(const Functor_demography dem, const Functor_selection sel_coeff, const Functor_inbreeding f_inbred, const Functor_dominance dominance, unsigned int gen, unsigned int pop) {
-	float N(round(dem(gen,pop))), F(f_inbred(gen,pop)), e_s((max(sel_coeff(gen,pop,1),-1.f) - max(sel_coeff(gen,pop,0),-1.f))/2.f);
-	float s2(sel_coeff(gen,pop,1));
+	float N(round(dem(gen,pop))), F(f_inbred(gen,pop));//e_s((max(sel_coeff(gen,pop,1),-1.f) - max(sel_coeff(gen,pop,0),-1.f))/2.f);
+	float e_s(max(sel_coeff(gen,pop,0),-1.f));
+	//float s2(sel_coeff(gen,pop,1));
 	//printf("selectoin: %f\n",e_s); 
 	//printf("before max selectoin: %f\n",s2); 
-	constant = -4*N*e_s*((1-F)/4+F)/(1+F);
+	constant = -1*N*e_s*((1-F)/4+F)/(1+F);
 }
 __host__ __device__ double stabilizing_mse_integrand::operator()(double i) const{ return exp(constant*(i*i-i)); } //exponent term in integrand is negative inverse, //works for either haploid or diploid, N should be number of individuals, for haploid, F = 1
 __host__ __device__ bool stabilizing_mse_integrand::neutral() const{ return constant==0; }
