@@ -5,8 +5,8 @@ if ! [ -x "$(command -v sinfo)" ]; then
   echo 'on local computer'
   echo $PATH
 else
-  nameofhost = hostname
-  if [[$nameofhost =~ "midway2"]]
+  nameofhost=hostname
+  if [$nameofhost =~ "midway2"]
   then
     export PATH=$PATH:/project2/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFish_57_epoch
     echo 'on midway2 cluster'
@@ -25,18 +25,10 @@ for i in $files; do
 
 while IFS= read -r line
 do
-  # make sure negative selection
-  if [[ ${line:0:1} == "-" ]]
-  then
-   filename="sfs_out_selection_{$line}.txt"
-   echo "Output file name is $filename"
-   echo "Already negative selection"
-  ./GOFish_57_epoch $line 111710 $filename
-  else
-    line="-$line"
-    filename="sfs_out_selection_{$line}.txt"
-    #echo "Output fileclear name is $filename"
-    ./GOFish_57_epoch $line 111710 $filename
-  fi
+  line="$line"
+  filename="sfs_out_selection_{$line}.txt"
+  #echo "Output fileclear name is $filename"
+  ./GOFISH_uk_robertson $line 360388 $filename
 done < "$input"
+
 done

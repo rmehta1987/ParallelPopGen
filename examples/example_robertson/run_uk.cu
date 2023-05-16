@@ -101,7 +101,7 @@ void print_mse_robertson_sfs(int num_iterations, int num_samples, float sel_coef
                 average[i] = (average[i] * (j-1.0) + my_spectra_mse.frequency_spectrum[i]) * 1.0/j;
             }
         }
-        if (j%2==0)
+        if (j%2==0 && j > 0)
         {
              std::cout << "Finished iteration " << j << " of simulation" << std::endl;
         }
@@ -110,7 +110,7 @@ void print_mse_robertson_sfs(int num_iterations, int num_samples, float sel_coef
 	
 	end = std::chrono::high_resolution_clock::now();
 	std::chrono::duration<double,std::milli> elapsed_ms = end - start;
-	std::cout<<"\nnumber of mutations in simulation: " << b.maximal_num_mutations() << "\nnumber of mutations in SFS: "<< my_spectra_mse.num_mutations <<"\ntime elapsed (ms): "<< elapsed_ms.count()/num_iter << std::endl << std::endl;
+	std::cout<<"\nnumber of mutations in simulation: " << b.maximal_num_mutations() << "\nnumber of mutations in SFS: "<< my_spectra_mse.num_mutations <<"\ntime elapsed (ms): "<< elapsed_ms.count()/num_iter << std::endl;
 
   std::ofstream output_file(file_name);
     //std::string output_file_name_debug = "last_sim_" + file_name;

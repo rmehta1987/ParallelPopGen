@@ -7,3 +7,6 @@ examples/example_dadi/out_put_data/
 examples/example_dadi/simdata/
 examples/example_dadi/scripts_sample_sel_data/
 *.txt
+
+#ignore c++ object files
+*.o

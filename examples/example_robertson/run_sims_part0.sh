@@ -1,4 +1,5 @@
 #!/bin/bash
+input="robertson_samples/sample_0.txt"
 if ! [ -x "$(command -v sinfo)" ]; then
   export PATH=$PATH:/home/rahul/PopGen/ParallelPopGen-0.3.2/examples/example_robertson/GOFISH_uk_robertson
   echo 'on local computer'
@@ -16,11 +17,6 @@ else
     echo $PATH
     fi
 fi
-
-files=$( ls $1/*_9*.txt ) #Add () to convert output to array
-for i in $files; do
-    input=$i
-    echo "reading file $input"
 
 while IFS= read -r line
 do

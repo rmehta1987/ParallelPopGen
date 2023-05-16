@@ -36,12 +36,12 @@
 build_path = ../bin
 api_path_source = ../../3P/_internal
 api_path_include = ../../3P
-EXEC_FILE = GOFish_uk_robertson
+EXEC_FILE = 
 
 NVCC = nvcc -std=c++14
 CFLAGS = -O3 --expt-relaxed-constexpr -I $(api_path_include)/ -dc
-#CODE = --generate-code arch=compute_75,code=sm_75 --generate-code arch=compute_61,code=sm_61 
-CODE = --generate-code arch=compute_61,code=[sm_61,compute_61] 
+CODE = --generate-code arch=compute_75,code=sm_75 --generate-code arch=compute_61,code=sm_61 
+#CODE = --generate-code arch=compute_61,code=[sm_61,compute_61] 
 object_names = run_uk_robertson.o spectrum_uk_robertson.o
 objects = $(addprefix $(build_path)/,$(object_names))
 
