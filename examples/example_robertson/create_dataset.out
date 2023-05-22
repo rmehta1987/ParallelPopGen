@@ -1,0 +1,5 @@
+/var/spool/slurm/d/job4614948/slurm_script: line 18: SFS/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "create_sim_dataset.py", line 6, in <module>
+    import hdfdict
+ModuleNotFoundError: No module named 'hdfdict'

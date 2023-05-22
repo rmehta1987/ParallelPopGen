@@ -13,4 +13,4 @@
 
 
 module load cuda
-bash run_lots_of_sims_a_file_.sh
+bash run_sims_part0.sh

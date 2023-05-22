@@ -135,7 +135,7 @@ int main(int argc, char **argv)
     std::string file_name = "out_file.txt";
     float num_sites = 133.0f * pow(10.f, 6);
     float mu = 1.24f * pow(10.f, -8); // genome-wide mutation rate https://www.biorxiv.org/content/10.1101/2022.07.11.499645v1.full.pdf
-    int num_iterations = 1;
+    int num_iterations = 2;
     if (argc != 4) // 3 Total parameters, [executable, unscaled selection coefficient, num_samples, file_seed]
     {
         fprintf(stderr, "Warning: The number of arguments given in the command line is not correct. In this version you need to pass in a selection cofficient, sample_size, and output_file_name, format is: ./GOFish scaled_mutation_rate unscaled_selection coefficient num_samples output_filename\n");
@@ -156,4 +156,5 @@ int main(int argc, char **argv)
 
     std::cout << "Running simulations" << std::endl;
     print_mse_robertson_sfs(num_iterations, num_samples, PointSel, num_sites, mu, file_name);
+    std::cout << "Finished" << std::endl;
 }

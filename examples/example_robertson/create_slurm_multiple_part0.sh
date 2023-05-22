@@ -3,7 +3,7 @@
 #SBATCH --job-name=part1
 #SBATCH --account=pi-jjberg
 #SBATCH --partition=gpu
-#SBATCH --time=12:00:00
+#SBATCH --time=24:00:00
 #SBATCH --gres=gpu:1
 # TO USE V100 specify --constraint=v100
 # TO USE RTX600 specify --constraint=rtx6000
@@ -13,4 +13,4 @@
 
 
 module load cuda
-bash run_sims_part1.sh needknow
+bash run_sims_part1.sh robertson_samples

@@ -28,7 +28,7 @@ do
   line="$line"
   filename="sfs_out_selection_{$line}.txt"
   #echo "Output fileclear name is $filename"
-  ./GOFISH_uk_robertson $line 360388 $filename
+  ./GOFISH_uk_robertson $line 720776 $filename
 done < "$input"
 
 done
