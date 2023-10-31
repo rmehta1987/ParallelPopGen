@@ -1,0 +1,1947 @@
+run_sims_part8.sh: line 8: nameofhost: command not found
+run_sims_part8.sh: line 9: [[: command not found
+on midway3 cluster
+/software/cuda-11.7-el8-x86_64/bin:/software/python-anaconda-2020.11-el8-x86_64/bin:/software/python-anaconda-2020.11-el8-x86_64/condabin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/bin:/software/slurm-current-el8-x86_64/bin:/software/modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/thinlinc/bin:/project/jjberg/mehta5/ParallelPopGen/examples/example_dadi/GOFISH_uk_robertson
+reading file robertson_samples/sample_80.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00837186
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82824922
+number of mutations in SFS: 1.88795e+07
+time elapsed (ms): 111063
+
+ Saving SFS to: sfs_out_selection_{8.371859e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00841708
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82799552
+number of mutations in SFS: 1.88577e+07
+time elapsed (ms): 111277
+
+ Saving SFS to: sfs_out_selection_{8.417085e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00846231
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82774219
+number of mutations in SFS: 1.88361e+07
+time elapsed (ms): 110977
+
+ Saving SFS to: sfs_out_selection_{8.462312e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00850754
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82748721
+number of mutations in SFS: 1.88143e+07
+time elapsed (ms): 111119
+
+ Saving SFS to: sfs_out_selection_{8.507538e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00855276
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82723712
+number of mutations in SFS: 1.87929e+07
+time elapsed (ms): 110871
+
+ Saving SFS to: sfs_out_selection_{8.552764e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00859799
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82698504
+number of mutations in SFS: 1.87715e+07
+time elapsed (ms): 111164
+
+ Saving SFS to: sfs_out_selection_{8.597990e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00864322
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82673355
+number of mutations in SFS: 1.87499e+07
+time elapsed (ms): 110794
+
+ Saving SFS to: sfs_out_selection_{8.643216e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00868844
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82648175
+number of mutations in SFS: 1.87286e+07
+time elapsed (ms): 111157
+
+ Saving SFS to: sfs_out_selection_{8.688442e-03}.txt
+Finished
+reading file robertson_samples/sample_81.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00873367
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82623365
+number of mutations in SFS: 1.87073e+07
+time elapsed (ms): 110976
+
+ Saving SFS to: sfs_out_selection_{8.733668e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00877889
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82598137
+number of mutations in SFS: 1.86859e+07
+time elapsed (ms): 111097
+
+ Saving SFS to: sfs_out_selection_{8.778894e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00882412
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82573286
+number of mutations in SFS: 1.86647e+07
+time elapsed (ms): 110936
+
+ Saving SFS to: sfs_out_selection_{8.824121e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00886935
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82548516
+number of mutations in SFS: 1.86435e+07
+time elapsed (ms): 110889
+
+ Saving SFS to: sfs_out_selection_{8.869347e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00891457
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82523893
+number of mutations in SFS: 1.86224e+07
+time elapsed (ms): 110691
+
+ Saving SFS to: sfs_out_selection_{8.914573e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0089598
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82499340
+number of mutations in SFS: 1.86015e+07
+time elapsed (ms): 110931
+
+ Saving SFS to: sfs_out_selection_{8.959799e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00900503
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+28895.998047	28896.000000	28895	28896.000000
+Finished all iterations of simulation
+
+number of mutations in simulation: 82474492
+number of mutations in SFS: 1.85806e+07
+time elapsed (ms): 110693
+
+ Saving SFS to: sfs_out_selection_{9.005025e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00905025
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82449841
+number of mutations in SFS: 1.85596e+07
+time elapsed (ms): 110810
+
+ Saving SFS to: sfs_out_selection_{9.050251e-03}.txt
+Finished
+reading file robertson_samples/sample_82.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00909548
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82425326
+number of mutations in SFS: 1.85388e+07
+time elapsed (ms): 110565
+
+ Saving SFS to: sfs_out_selection_{9.095477e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0091407
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82400997
+number of mutations in SFS: 1.85182e+07
+time elapsed (ms): 110825
+
+ Saving SFS to: sfs_out_selection_{9.140704e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00918593
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82376697
+number of mutations in SFS: 1.84975e+07
+time elapsed (ms): 110473
+
+ Saving SFS to: sfs_out_selection_{9.185930e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00923116
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82352331
+number of mutations in SFS: 1.84769e+07
+time elapsed (ms): 110621
+
+ Saving SFS to: sfs_out_selection_{9.231156e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00927638
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82328268
+number of mutations in SFS: 1.84564e+07
+time elapsed (ms): 110409
+
+ Saving SFS to: sfs_out_selection_{9.276382e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00932161
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82303731
+number of mutations in SFS: 1.84358e+07
+time elapsed (ms): 110592
+
+ Saving SFS to: sfs_out_selection_{9.321608e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00936683
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82279511
+number of mutations in SFS: 1.84153e+07
+time elapsed (ms): 110324
+
+ Saving SFS to: sfs_out_selection_{9.366834e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00941206
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82255428
+number of mutations in SFS: 1.8395e+07
+time elapsed (ms): 110406
+
+ Saving SFS to: sfs_out_selection_{9.412060e-03}.txt
+Finished
+reading file robertson_samples/sample_83.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00945729
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82231357
+number of mutations in SFS: 1.83746e+07
+time elapsed (ms): 110268
+
+ Saving SFS to: sfs_out_selection_{9.457286e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00950251
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82207509
+number of mutations in SFS: 1.83546e+07
+time elapsed (ms): 110462
+
+ Saving SFS to: sfs_out_selection_{9.502513e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00954774
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82183570
+number of mutations in SFS: 1.83343e+07
+time elapsed (ms): 110126
+
+ Saving SFS to: sfs_out_selection_{9.547739e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00959297
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82160008
+number of mutations in SFS: 1.83143e+07
+time elapsed (ms): 110356
+
+ Saving SFS to: sfs_out_selection_{9.592965e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00963819
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82136401
+number of mutations in SFS: 1.82943e+07
+time elapsed (ms): 110193
+
+ Saving SFS to: sfs_out_selection_{9.638191e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00968342
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82112565
+number of mutations in SFS: 1.82742e+07
+time elapsed (ms): 110320
+
+ Saving SFS to: sfs_out_selection_{9.683417e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00972864
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82088907
+number of mutations in SFS: 1.82542e+07
+time elapsed (ms): 110252
+
+ Saving SFS to: sfs_out_selection_{9.728643e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00977387
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82065514
+number of mutations in SFS: 1.82345e+07
+time elapsed (ms): 110208
+
+ Saving SFS to: sfs_out_selection_{9.773869e-03}.txt
+Finished
+reading file robertson_samples/sample_84.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0098191
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82041580
+number of mutations in SFS: 1.82144e+07
+time elapsed (ms): 110219
+
+ Saving SFS to: sfs_out_selection_{9.819095e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00986432
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 82018249
+number of mutations in SFS: 1.81947e+07
+time elapsed (ms): 110326
+
+ Saving SFS to: sfs_out_selection_{9.864322e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00990955
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 81994848
+number of mutations in SFS: 1.8175e+07
+time elapsed (ms): 109939
+
+ Saving SFS to: sfs_out_selection_{9.909548e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.00995477
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 81971590
+number of mutations in SFS: 1.81554e+07
+time elapsed (ms): 110078
+
+ Saving SFS to: sfs_out_selection_{9.954774e-03}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.01
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 81948377
+number of mutations in SFS: 1.81358e+07
+time elapsed (ms): 109917
+
+ Saving SFS to: sfs_out_selection_{1.000000e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0109091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 81491335
+number of mutations in SFS: 1.77545e+07
+time elapsed (ms): 109488
+
+ Saving SFS to: sfs_out_selection_{1.090909e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0118182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 81056086
+number of mutations in SFS: 1.73952e+07
+time elapsed (ms): 108790
+
+ Saving SFS to: sfs_out_selection_{1.181818e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0127273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 80639380
+number of mutations in SFS: 1.70554e+07
+time elapsed (ms): 108074
+
+ Saving SFS to: sfs_out_selection_{1.272727e-02}.txt
+Finished
+reading file robertson_samples/sample_85.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0136364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 80240987
+number of mutations in SFS: 1.67344e+07
+time elapsed (ms): 107899
+
+ Saving SFS to: sfs_out_selection_{1.363636e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0145454
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 79859740
+number of mutations in SFS: 1.64304e+07
+time elapsed (ms): 107039
+
+ Saving SFS to: sfs_out_selection_{1.454545e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0154546
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 79493504
+number of mutations in SFS: 1.61419e+07
+time elapsed (ms): 106744
+
+ Saving SFS to: sfs_out_selection_{1.545455e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0163636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 79141507
+number of mutations in SFS: 1.58678e+07
+time elapsed (ms): 106039
+
+ Saving SFS to: sfs_out_selection_{1.636364e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0172727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 78801555
+number of mutations in SFS: 1.56063e+07
+time elapsed (ms): 105752
+
+ Saving SFS to: sfs_out_selection_{1.727273e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0181818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 78471751
+number of mutations in SFS: 1.53556e+07
+time elapsed (ms): 105223
+
+ Saving SFS to: sfs_out_selection_{1.818182e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0190909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 78152574
+number of mutations in SFS: 1.51159e+07
+time elapsed (ms): 105118
+
+ Saving SFS to: sfs_out_selection_{1.909091e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.02
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 77842998
+number of mutations in SFS: 1.4886e+07
+time elapsed (ms): 104718
+
+ Saving SFS to: sfs_out_selection_{2.000000e-02}.txt
+Finished
+reading file robertson_samples/sample_86.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0209091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 77541799
+number of mutations in SFS: 1.46645e+07
+time elapsed (ms): 104376
+
+ Saving SFS to: sfs_out_selection_{2.090909e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0218182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 77249386
+number of mutations in SFS: 1.44522e+07
+time elapsed (ms): 104034
+
+ Saving SFS to: sfs_out_selection_{2.181818e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0227273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 76964675
+number of mutations in SFS: 1.42472e+07
+time elapsed (ms): 103684
+
+ Saving SFS to: sfs_out_selection_{2.272727e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0236364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 76685711
+number of mutations in SFS: 1.40489e+07
+time elapsed (ms): 103384
+
+ Saving SFS to: sfs_out_selection_{2.363636e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0245454
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 76412967
+number of mutations in SFS: 1.38569e+07
+time elapsed (ms): 102786
+
+ Saving SFS to: sfs_out_selection_{2.454545e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0254545
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 76146447
+number of mutations in SFS: 1.36715e+07
+time elapsed (ms): 102588
+
+ Saving SFS to: sfs_out_selection_{2.545455e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0263636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 75885271
+number of mutations in SFS: 1.34918e+07
+time elapsed (ms): 102154
+
+ Saving SFS to: sfs_out_selection_{2.636364e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0272727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 75629083
+number of mutations in SFS: 1.33175e+07
+time elapsed (ms): 101876
+
+ Saving SFS to: sfs_out_selection_{2.727273e-02}.txt
+Finished
+reading file robertson_samples/sample_87.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0281818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 75378079
+number of mutations in SFS: 1.31484e+07
+time elapsed (ms): 101438
+
+ Saving SFS to: sfs_out_selection_{2.818182e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0290909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 75131108
+number of mutations in SFS: 1.29837e+07
+time elapsed (ms): 101353
+
+ Saving SFS to: sfs_out_selection_{2.909091e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.03
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 74888608
+number of mutations in SFS: 1.28236e+07
+time elapsed (ms): 100875
+
+ Saving SFS to: sfs_out_selection_{3.000000e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0309091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 74649825
+number of mutations in SFS: 1.26679e+07
+time elapsed (ms): 100626
+
+ Saving SFS to: sfs_out_selection_{3.090909e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0318182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 74414588
+number of mutations in SFS: 1.25158e+07
+time elapsed (ms): 100211
+
+ Saving SFS to: sfs_out_selection_{3.181818e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0327273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 74183029
+number of mutations in SFS: 1.2368e+07
+time elapsed (ms): 100078
+
+ Saving SFS to: sfs_out_selection_{3.272727e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0336364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 73955015
+number of mutations in SFS: 1.22236e+07
+time elapsed (ms): 99817.8
+
+ Saving SFS to: sfs_out_selection_{3.363636e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0345455
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 73730936
+number of mutations in SFS: 1.20829e+07
+time elapsed (ms): 99333.3
+
+ Saving SFS to: sfs_out_selection_{3.454545e-02}.txt
+Finished
+reading file robertson_samples/sample_88.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0354545
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 73509452
+number of mutations in SFS: 1.19453e+07
+time elapsed (ms): 98995.4
+
+ Saving SFS to: sfs_out_selection_{3.545455e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0363636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 73291546
+number of mutations in SFS: 1.1811e+07
+time elapsed (ms): 98669.1
+
+ Saving SFS to: sfs_out_selection_{3.636364e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0372727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 73076889
+number of mutations in SFS: 1.168e+07
+time elapsed (ms): 98624.3
+
+ Saving SFS to: sfs_out_selection_{3.727273e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0381818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 72864126
+number of mutations in SFS: 1.15519e+07
+time elapsed (ms): 98232.2
+
+ Saving SFS to: sfs_out_selection_{3.818182e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0390909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 72654820
+number of mutations in SFS: 1.14266e+07
+time elapsed (ms): 98137.4
+
+ Saving SFS to: sfs_out_selection_{3.909091e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.04
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 72447529
+number of mutations in SFS: 1.13039e+07
+time elapsed (ms): 97775.7
+
+ Saving SFS to: sfs_out_selection_{4.000000e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0409091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 72242076
+number of mutations in SFS: 1.11836e+07
+time elapsed (ms): 97402.5
+
+ Saving SFS to: sfs_out_selection_{4.090909e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0418182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 72040363
+number of mutations in SFS: 1.10661e+07
+time elapsed (ms): 97298.5
+
+ Saving SFS to: sfs_out_selection_{4.181818e-02}.txt
+Finished
+reading file robertson_samples/sample_89.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0427273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 71839909
+number of mutations in SFS: 1.09512e+07
+time elapsed (ms): 96832.9
+
+ Saving SFS to: sfs_out_selection_{4.272727e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0436364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 71641970
+number of mutations in SFS: 1.08382e+07
+time elapsed (ms): 96764.7
+
+ Saving SFS to: sfs_out_selection_{4.363636e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0445454
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 71446261
+number of mutations in SFS: 1.07278e+07
+time elapsed (ms): 96331.3
+
+ Saving SFS to: sfs_out_selection_{4.454545e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0454546
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 71252322
+number of mutations in SFS: 1.06194e+07
+time elapsed (ms): 96166.1
+
+ Saving SFS to: sfs_out_selection_{4.545455e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0463636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 71060025
+number of mutations in SFS: 1.05132e+07
+time elapsed (ms): 95789.3
+
+ Saving SFS to: sfs_out_selection_{4.636364e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0472727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 70869880
+number of mutations in SFS: 1.04091e+07
+time elapsed (ms): 95632.1
+
+ Saving SFS to: sfs_out_selection_{4.727273e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0481818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 70682213
+number of mutations in SFS: 1.03069e+07
+time elapsed (ms): 95522.3
+
+ Saving SFS to: sfs_out_selection_{4.818182e-02}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0490909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 70495825
+number of mutations in SFS: 1.02067e+07
+time elapsed (ms): 95234
+
+ Saving SFS to: sfs_out_selection_{4.909091e-02}.txt
+Finished
+reading file robertson_samples/sample_8.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.40803e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+62567.996094	62568.000000	62567	62568.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+58807.996094	58808.000000	58807	58808.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+6743.999512	6744.000000	6743	6744.000000
+Finished all iterations of simulation
+
+number of mutations in simulation: 89241979
+number of mutations in SFS: 2.46624e+07
+time elapsed (ms): 123206
+
+ Saving SFS to: sfs_out_selection_{2.408027e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.44147e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+7681.999512	7682.000000	7681	7682.000000
+7681.999512	7682.000000	7681	7682.000000
+7681.999512	7682.000000	7681	7682.000000
+Finished all iterations of simulation
+
+number of mutations in simulation: 89241448
+number of mutations in SFS: 2.46619e+07
+time elapsed (ms): 123129
+
+ Saving SFS to: sfs_out_selection_{2.441472e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.47492e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 89240805
+number of mutations in SFS: 2.46613e+07
+time elapsed (ms): 123269
+
+ Saving SFS to: sfs_out_selection_{2.474916e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.50836e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 89240617
+number of mutations in SFS: 2.46611e+07
+time elapsed (ms): 123057
+
+ Saving SFS to: sfs_out_selection_{2.508361e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.54181e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+Finished all iterations of simulation
+
+number of mutations in simulation: 89239555
+number of mutations in SFS: 2.46601e+07
+time elapsed (ms): 123221
+
+ Saving SFS to: sfs_out_selection_{2.541806e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.57525e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+43067.996094	43068.000000	43067	43068.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+Finished all iterations of simulation
+
+number of mutations in simulation: 89239356
+number of mutations in SFS: 2.46599e+07
+time elapsed (ms): 122971
+
+ Saving SFS to: sfs_out_selection_{2.575251e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.6087e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28134	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+28135.998047	28136.000000	28135	28136.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+54733.996094	54734.000000	54733	54734.000000
+Finished all iterations of simulation
+
+number of mutations in simulation: 89239224
+number of mutations in SFS: 2.46598e+07
+time elapsed (ms): 123235
+
+ Saving SFS to: sfs_out_selection_{2.608696e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.64214e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+Finished all iterations of simulation
+
+number of mutations in simulation: 89238263
+number of mutations in SFS: 2.46588e+07
+time elapsed (ms): 122975
+
+ Saving SFS to: sfs_out_selection_{2.642140e-05}.txt
+Finished
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.67558e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+28927.998047	28928.000000	28927	28928.000000
+Finished all iterations of simulation
+
+number of mutations in simulation: 89237360
+number of mutations in SFS: 2.4658e+07
+time elapsed (ms): 123195
+
+ Saving SFS to: sfs_out_selection_{2.675585e-05}.txt
+Finished

@@ -1,5 +1,5 @@
 #!/bin/bash
-input="robertson_samples/sample_0.txt"
+input="robertson_samples_more/sample_0.txt"
 if ! [ -x "$(command -v sinfo)" ]; then
   export PATH=$PATH:/home/rahul/PopGen/ParallelPopGen-0.3.2/examples/example_robertson/GOFISH_uk_robertson
   echo 'on local computer'
@@ -26,4 +26,3 @@ do
   ./GOFISH_uk_robertson $line 102906 $filename
 done < "$input"
 
-done

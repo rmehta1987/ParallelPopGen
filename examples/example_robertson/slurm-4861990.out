@@ -1,0 +1,5 @@
+run_sims_part9.sh: line 7: nameofhost: command not found
+run_sims_part9.sh: line 8: [[: command not found
+on midway3 cluster
+/software/cuda-11.7-el8-x86_64/bin:/software/python-anaconda-2020.11-el8-x86_64/bin:/software/python-anaconda-2020.11-el8-x86_64/condabin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/bin:/software/slurm-current-el8-x86_64/bin:/software/modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/thinlinc/bin:/project/jjberg/mehta5/ParallelPopGen/examples/example_robertson/GOFISH_uk_robertson
+ls: cannot access '/*_9*.txt': No such file or directory

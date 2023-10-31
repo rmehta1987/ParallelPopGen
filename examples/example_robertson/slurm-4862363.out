@@ -1,0 +1,549 @@
+run_sims_part9.sh: line 7: nameofhost: command not found
+run_sims_part9.sh: line 8: [[: command not found
+on midway3 cluster
+/software/cuda-11.7-el8-x86_64/bin:/software/python-anaconda-2020.11-el8-x86_64/bin:/software/python-anaconda-2020.11-el8-x86_64/condabin:/home/mehta5/.local/bin:/home/mehta5/bin:/software/bin:/software/slurm-current-el8-x86_64/bin:/software/modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/thinlinc/bin:/project/jjberg/mehta5/ParallelPopGen/examples/example_robertson/GOFISH_uk_robertson
+reading file robertson_samples/sample_90.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0509091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0518182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0527273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0536364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0545455
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0554545
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0563636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_91.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0572727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0581818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0590909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.06
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0609091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0618182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0627273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0636364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_92.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0645455
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0654546
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0663636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0672727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0681818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0690909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.07
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0709091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_93.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0718182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0727273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0736364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0745455
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0754545
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0763636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0772727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0781818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_94.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0790909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.08
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0809091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0818182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0827273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0836364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0845454
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0854546
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_95.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0863636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0872727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0881818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0890909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.09
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0909091
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0918182
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0927273
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_96.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0936364
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0945454
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0954546
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0963636
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0972727
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0981818
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.0990909
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.1
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_97.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.10625
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.1125
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.11875
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.125
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.13125
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.1375
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.14375
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.15
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_98.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.15625
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.1625
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.16875
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.175
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.18125
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.1875
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.19375
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.2
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_99.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.20625
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.2125
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.21875
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.225
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.23125
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.2375
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.24375
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 0.25
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+reading file robertson_samples/sample_9.txt
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.70903e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.74248e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.77592e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.80936e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.84281e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.87625e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.9097e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.94314e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0
+Currently we are using the genome wide mutation 1.5e-8: 
+Unscaled Point Selection: 2.97659e-05
+Number of samples to generate SFS: 102906
+Running simulations
+Starting iteration 0 of simulation
+error 500 named symbol not found	file ../../3P/../3P/_internal/go_fish_impl.cuh	line 428	generation 0	 population 0

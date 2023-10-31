@@ -36,7 +36,7 @@ def find_not_sim_samples(data_path_1: str, data_path_2: str, file_name: str):
     diff = np.setdiff1d(all_samps, sel_coef)
     print("Found this number of un-simulated samples: {}".format(diff.shape))
     #print(diff)
-    diffs = np.array_split(diff, diff.shape[0]%8+1)
+    diffs = np.array_split(diff, diff.shape[0]%40+1)
     for j, a in enumerate(diffs):
         np.savetxt(f'sample_{j}.txt',a,fmt='%.6e')
     #np.savetxt(file_name, diff, fmt='%.6e')
@@ -44,9 +44,9 @@ def find_not_sim_samples(data_path_1: str, data_path_2: str, file_name: str):
 
 def main():
 
-    data_path = '/project/jjberg/mehta5/ParallelPopGen/examples/example_robertson/cur_sims/'
-    data_path2 = '/project/jjberg/mehta5/ParallelPopGen/examples/example_robertson/robertson_samples_orig/'
-    file_name = 'needtoknow.txt'
+    data_path = '/project/jjberg/mehta5/ParallelPopGen/examples/example_robertson/chr10_genome_wide_100k_sample_size'
+    data_path2 = '/project/jjberg/mehta5/ParallelPopGen/examples/example_robertson/robertson_samples/'
+    file_name = 'needtoknow2.txt'
     find_not_sim_samples(data_path, data_path2, file_name)
 
 

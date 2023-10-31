@@ -12,4 +12,4 @@
 #SBATCH --cpus-per-task=2   # set this to the desired number of threads
 
 module load cuda
-bash run_sims_part8.sh needtoknow
+bash run_sims_part8.sh robertson_samples

@@ -63,7 +63,7 @@ def main():
     #missense_data_path = 'missense_sim_sfs_data/'
     #lof_data_path = '/home/rahul/PopGen/SimulationSFS/ParallelPopGen_Data/sfs_sims_lof_avg_rate/'
     #lof_data_path2 = '/home/rahul/PopGen/SimulationSFS/cur_data_made_02_22/'
-    data_path = '/project/jjberg/mehta5/ParallelPopGen/examples/example_robertson/cur_sims/'
+    data_path = '/project/jjberg/mehta5/ParallelPopGen/examples/examples_robertson/chr10_genome_wide_700k_sample_size/'
     file_name = 'chr10_sim_genome_wide_mut_sfs_gwas.h5'
     create_hdf5_dataset(data_path, file_name)
 

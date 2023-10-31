@@ -10,6 +10,7 @@
 #******SBATCH --constraint=v100   # constraint job runs on V100 GPU use
 #SBATCH --ntasks-per-node=1 # num cores to drive each gpu
 #SBATCH --cpus-per-task=2   # set this to the desired number of threads
+#SBATCH --output=sample3.out
 
 module load cuda
 bash run_sims_part3.sh robertson_samples
